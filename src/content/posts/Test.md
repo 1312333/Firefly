@@ -7,4 +7,4 @@ category: 前端开发
 draft: false
 ---
 cloudflare临时链接（需要魔法）：https://firefly.xiaoyuer2333.workers.dev/
-DNSHE生成链接(调试中)：free-blog-xiaoyuer.ccwu.cc
+DNSHE生成链接(调试中)：https://free-blog-xiaoyuer.ccwu.cc/
