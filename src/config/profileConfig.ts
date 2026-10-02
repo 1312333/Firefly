@@ -35,7 +35,7 @@ export const profileConfig: ProfileConfig = {
 		},
 		{
 			name: "STCN",
-			icon: "https://forum.smart-teach.cn/assets/logo-12irxazt.png",
+			icon: "fa7-regular:comments",
 			url: "https://forum.smart-teach.cn/u/AWAurora233",
 			showName: false,
 		},

@@ -1,25 +1,40 @@
 # 关于我 / About Me
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+你好！我是 **AWAurora233** ，一只热爱折腾的电教，喜欢研究各种有趣的技术。
 
 ## 🛠️ 关于本站
 
 这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+:::note
+这里不是什么垂直技术博客，种类会很杂：
+:::
 
+> [!TIP] 💡项目分享
+> 自己写的开源工具和网上的实用工具
 
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
+:::tip[经验交流]
+交流维护经验,你可以在![智教联盟论坛(https://forum.smart-teach.cn/assets/logo-12irxazt.png)](https://forum.smart-teach.cn/)上看到[我](https://forum.smart-teach.cn/u/AWAurora233)
+:::
 
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
+:::info
+二次元、~~开发日常~~、日常碎碎念。
+:::
 
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
+## 我的项目
+~~写过~~一些开源项目，大部分是为了解决自己的需求：
 
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
+::github{repo="1312333/ClassIsland-TimeOfDayTrigger"}
 
-::github{repo="CuteLeaf/Firefly"}
+::github{repo="1312333/ClassIsland"}
 
-::github{repo="saicaca/fuwari"}
+## 兴趣偏好
+
+> [!NOTE] 💻数码科技
+> 手机、电脑、软硬件，什么都想折腾一下。
+
+> [!NOTE] 🎮游戏
+> Minecraft Java 版：什么都玩一点，但都不精（笑）
 
 ---
 
