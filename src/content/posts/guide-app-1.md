@@ -1,7 +1,8 @@
 ---
 title: 【转载/修改】一些神秘小软件
 published: 2026-10-02
-description: emm，总之就是一些软件就是了
+updated: 2026-10-03
+description: 分享一些实用软件的精简版、激活工具和替代方案，包括 WPS Office 特别版、HEU KMS Activator、Office Tool Plus、希沃白板激活工具等，仅供学习交流。
 image: "api"
 tags: [教程, 软件]
 category: 教程
@@ -12,7 +13,7 @@ sourceLink: https://blog.edicdn.eu.org/posts/nice-softwares.html
 **文章原文：**[一些很棒的但是在STCN上发不出来的神秘小软件](https://blog.edicdn.eu.org/posts/nice-softwares.html)
 
 > [!IMPORTANT] 重要
->**本篇博客中所有软件，内容来自互联网，本站只做免费推荐用于学习分享非本人作品，且注明了出处，仅限参考、教学与个人使用交流！请勿用于商业目的，本站不对您的使用负任何责任！如果您想使用我们收集的下载内容，必须同意这个协议！**
+>**本篇博客中所有软件，内容来自互联网，本站只做免费推荐用于学习分享，且注明了出处，仅限参考、教学与个人使用交流！请勿用于商业目的，本站不对您的使用负任何责任！如果您想使用我们收集的下载内容，必须同意这个协议！**
 
 是这样的，总会有人一个劲死脑筋要装特定的软件（比如WPS），于是乎就会有很多精简版优化版
 
@@ -48,7 +49,9 @@ Office Tool Plus是一款Office部署工具，可以安装、卸载、激活Offi
 正经东西啊，同志们（
 
 [GitHub Release](https://github.com/YerongAI/Office-Tool/releases)
+
 [官网](https://otp.landian.vip/zh-cn/)
+
 [……或者这个文档站](https://www.officetool.plus/zh-cn/)
 
 ## 希沃白板 3 激活绕过工具：EN3Cracker​
@@ -73,7 +76,7 @@ MutanaFavazza 针对希沃白板 3 (EasiNote 3) 因官方停止维护导致的�
 ## WiseCare365-Pro​
 欸，这本来转自[吾爱破解](https://www.52pojie.cn/thread-2078006-1-1.html)的帖子，然后在STCN上审核挂了
 
-[蓝奏云(链接没了)](https://wxjyxlwmh.lanzouv.com/b00mpzdiqb) 提取码&解压码：`52pj`
+[蓝奏云](https://wxjyxlwmh.lanzouv.com/b00mpzdiqb) 提取码&解压码：`52pj`
 
 ## 激活 Office/Windows 脚本​
 [一键激活 windows/office](https://kms.cx/)
