@@ -42,22 +42,21 @@ const pages = resolvePageToggles({
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "AWAurora233's blog",
+	title: "AWAurora233",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "Personal Blog",
 
 	// 站点 URL
 	site_url: "https://free-blog-xiaoyuer.ccwu.cc",
 
 	// 站点描述
 	description:
-		"此网站是AWAurora233的个人博客使用Firefly模版，Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板。",
+		"此网站是AWAurora233的个人博客使用Firefly模版。",
 
 	// 站点关键词
 	keywords: [
 		"Firefly",
-		"Fuwari",
 		"Astro",
 		"ACGN",
 		"博客",
