@@ -1,6 +1,6 @@
 ---
-title: "Firefly"
-slug: firefly
+title: "每日定时触发器插件"
+slug: ClassIsland-TimeOfDayTrigger
 published: 2026-10-01
 draft: false
 description: "一个ClassIsland 2.0~2.1 的自动化触发器插件"

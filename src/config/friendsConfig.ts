@@ -29,7 +29,7 @@ export const friendsConfig: FriendLink[] = [
 		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
 		siteurl: "https://blog.cuteleaf.cn",
 		tags: ["Blog"],
-		weight: 10, // 权重，数字越大排序越靠前
+		weight: 11, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
 	{
@@ -38,15 +38,24 @@ export const friendsConfig: FriendLink[] = [
 		desc: "Firefly主题模板文档",
 		siteurl: "https://docs-firefly.cuteleaf.cn",
 		tags: ["Docs"],
+		weight: 10,
+		enabled: true,
+	},
+	{
+		title: "THW's Blog",
+		imgurl: "https://image.tianhw.top/avatar.webp",
+		desc: "前途似海，来日方长",
+		siteurl: "https://blog.tianhw.top",
+		tags: ["Blog"],
 		weight: 9,
 		enabled: true,
 	},
 	{
-		title: "Astro",
-		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
-		siteurl: "https://github.com/withastro/astro",
-		tags: ["Framework"],
+		title: "番茄主理人",
+		imgurl: "https://q1.qlogo.cn/g?b=qq&nk=20447289&s=640",
+		desc: "躬身入局，心为主理，行有尺度，自持本心。",
+		siteurl: "https://blog.fqzlr.top/",
+		tags: ["Blog"],
 		weight: 8,
 		enabled: true,
 	},
