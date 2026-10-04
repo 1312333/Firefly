@@ -2,11 +2,14 @@
 title: Win10神州网信政府版修改教程
 published: 2026-10-04
 updated: 2026-10-04
-description: 希沃七代机上"非常好用"的Win10神州网信政府版
+description: 修改希沃七代机上"非常好用"的Win10神州网信政府版
 tags: [教程, 软件]
 category: 教程
 draft: false
 ---
+
+> [!DANGER] DANGER
+> # ***此文章没有写完***
 
 > [!IMPORTANT] 重要
 >**本篇博客中所有软件，内容来自互联网，本站只做免费推荐用于学习分享，且注明了出处，仅限参考、教学与个人使用交流！请勿用于商业目的！**
@@ -26,15 +29,15 @@ draft: false
 备注：由于部分地区运营商DNS污染，若无法访问蓝奏云链接，请修改域名为wwsx.lanzoue.com或其他最新域名
 
 ### 取消Ctrl+Alt+Del打开启动屏幕
-'Win + R'调出运行窗口键入'gpedit.msc'打开组策略，找到计算机配置->Windows设置->安全设置->本地策略->安全选项
-找到'交互式登录：无须按ctrl+alt+dle'，设置为已启用即可。
+`Win + R`调出运行窗口键入`gpedit.msc`打开组策略，找到计算机配置->Windows设置->安全设置->本地策略->安全选项
+找到`交互式登录：无须按ctrl+alt+dle`，设置为已启用即可。
 
 ### 安装.NET Framework 3.5
 由于该系统比较特殊，所有系统联网的部分都被魔改了，所以也就无法自动系统更新，也就无法正常安装.NET Framework 3.5。
 神州网信官方提供了手动安装教程和文件，使用dism方式进行安装。
 官网地址：[官网链接](https://support.cmgos.com/cmgehelp/hottopic/how_to_install_dotnet_35)
 分流：[蓝奏云](https://wwa.lanzoui.com/iBnN9q5i7of)
-举例：将.cab后缀文件拖到C:\sxs目录下，然后以管理员方式打开PowerShell或Cmd，直接粘贴语句'dism.exe /online /enable-feature /featurename:NetFX3 /Source:c:\sxs'回车等待就好了。
+举例：将.cab后缀文件拖到C:\sxs目录下，然后以管理员方式打开PowerShell或Cmd，直接粘贴语句`dism.exe /online /enable-feature /featurename:NetFX3 /Source:c:\sxs`回车等待就好了。
 
 ![图片1](https://img2020.cnblogs.com/blog/1751997/202106/1751997-20210613144436674-31698719.png)
 
@@ -51,15 +54,15 @@ gpedit.msc打开组策略->计算机配置->管理模板->windows组件->应用�
 允许Windows应用访问相机---未配置，或强制允许。允许Windows应用访问麦克风---未配置，或强制允许
 
 ### 取消强密码
-'gpedit.msc'打开组策略->Windows设置->安全设置->账户策略->密码策略
-'密码必须符合复杂性要求'禁用，密码长度最小值、最短和最长使用期限都改成0，重启再次输密码登陆到桌面后，双击'ctrl+alt+del'点更改密码，输入旧密码，两次新密码不用输入，即清空了密码。
+`gpedit.msc`打开组策略->Windows设置->安全设置->账户策略->密码策略
+`密码必须符合复杂性要求`禁用，密码长度最小值、最短和最长使用期限都改成0，重启再次输密码登陆到桌面后，双击`ctrl+alt+del`点更改密码，输入旧密码，两次新密码不用输入，即清空了密码。
 
 ### 解除屏幕保护程序限制（选项灰色不可更改）
 gpedit.msc打开组策略->用户配置->管理模板->控制面板->个性化，将所有与屏幕保护程序相关的选项改为未配置即可。
 
 ![图片3](https://img2022.cnblogs.com/blog/1751997/202201/1751997-20220121133104895-695358431.png)
 
-另一种办法，注册表'regedit'定位到'HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Control Panel\Desktop'右栏删掉下表提到的键。
+另一种办法，注册表`regedit`定位到`HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Control Panel\Desktop`右栏删掉下表提到的键。
 
 | 键名 | 类型 | 说明 |
 | --- | --- | --- |
@@ -69,17 +72,17 @@ gpedit.msc打开组策略->用户配置->管理模板->控制面板->个性化�
 | SCRNSAVE.EXE	| REG_SZ | 修改屏幕保护程序路径 |
 
 ### 休眠后直接进入桌面
-'gpedit.msc'打开组策略->计算机配置->管理模板->控制面板->个性化，如下图所示，将'不显示锁屏'启用，其他选择未配置。
+`gpedit.msc`打开组策略->计算机配置->管理模板->控制面板->个性化，如下图所示，将`不显示锁屏`启用，其他选择未配置。
 
 ![图片4](https://img2022.cnblogs.com/blog/1751997/202202/1751997-20220207125457163-1331842797.png)
 
-运行窗口键入'netplwiz'。
+运行窗口键入`netplwiz`。
 
 ![图片5](https://img2020.cnblogs.com/blog/1751997/202112/1751997-20211202124732536-2043733058.png)
 
 先选中要设置的账户，再取消选中“要使用本计算机，用户必须输入用户名和密码”选项。
 应用后会出现一个要求输入用户名和密码的菜单，输入确定。
-然后，在'屏幕保护程序设置'里，取消'在恢复时显示登录屏幕'。
+然后，在`屏幕保护程序设置`里，取消`在恢复时显示登录屏幕`。
 
 ![图片6](https://img2022.cnblogs.com/blog/1751997/202201/1751997-20220121124902900-1850154663.png)
 
@@ -87,6 +90,13 @@ gpedit.msc打开组策略->用户配置->管理模板->控制面板->个性化�
 
 </details>
 
+# 希沃七代机上"非常好用"的Win10神州网信政府版修改方式
+
+即，复制借用部分
+
+作者：兰柯耴梦
+
+出处：https://zhuanlan.zhihu.com/p/593119197
 ## 一，部分权限设置
 
 即，复制借用部分
@@ -158,6 +168,97 @@ gpedit.msc打开组策略---》计算机配置---》管理模板---》开始菜�
 
 ## 三、Microsoft store安装
 
+安装仍借用别人的杰作，新说的，主要是安装后的部分。
+
+
+
+作者：冰墩墩
+
+如果电脑Windows10中没有Microsoft store，可以用以下方法安装。
+按 Win + Q 打开搜索，输入 powershell，然后以管理员身份运行；
+
+
+复制下面的代码，粘贴到powershell窗口中并按 Enter 执行（powershell中的粘贴键是鼠标右键）：
+Get-AppXPackage *WindowsStore* -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+
+
+
+最后重启电脑就可以了。
+
+如果上面的方法没有用，或者你的系统是 LTSC/LTSB版本，可以尝试专门的工具来安装 Microsoft Store。
+
+Microsoft Store安装工具：
+
+下载后,将文件解压，在解压好的文件夹里，点击打开 名为Add-Store（文件类型为windows命令脚本）的文件，键入命令Add-Store.cmd回车即可。
+
+
+
+当左下角出现 Press any Key to Exit. 时，关闭窗口，重启电脑即可。以上，就是安装Microsoft Store的方法。
+
+以上第三方法成功率很高，不过，对小白而已，安装最好不要先把一些英文软件给提前删了，不然，没有支撑软件也没办法运行。
+
+Microsoft Store安装好了后，能在里面搜索下载软件，但是，仍任会卡在下载界面，显示错误，即
+
+
+解决步骤如下：
+
+首先设置用户配置
+
+1、按下“Win+R”组合键呼出运行，在框中输入“gpedit.msc”按下回车键打开“本地组策略编辑器”
+
+　　2、在“本地组策略”编辑器左侧依次展开“用户配置”—“管理模板”—“indows组件”—“Windows Installer”打开
+
+　　3、找到“始终以提升的权限安装”项目双击打开，把策略设置为“已启动”，点击应用并确定。
+
+　　4、接着设置“阻止从可移动媒体进行任何安装”为“已禁用”确定之后，设置完成。
+
+最后设置计算机配置
+
+1、按下“Win+R”组合键呼出运行，在框中输入“gpedit.msc”按下回车键打开“本地组策略编辑器”
+
+　　2、在“本地组策略”编辑器左侧依次展开“计算机配置”—“管理模板”—“indows组件”—“Windows Installer”打开。
+
+3、找到“关闭Windows Installer”项目双击打开，把策略设置为“未配置”，点击应用并确定。
+
+　　4、接着设置“阻止用户使用Windows Installer安装更新和升级程序”为“已禁用”确定之后，设置完成
+
+重启计算机后，就能正常通过Microsoft Store下载更新软件了。
+
+## 神州网信Windows10启动Microsoft Account Sign-in Assistant服务时提示0x800704ec的解决办法
+
+在服务中启动 Microsoft Account Sign-in Assistant 时会提示 0x800704ec 的错误！
+经过一番折腾，找到了如下解决办法！
+在此感谢 placeholder 大佬！
+
+复制内容并保存为
+**Microsoft Account Sign-in Assistant.reg**
+
+~~~
+Windows Registry Editor Version 5.00
+ 
+; ==================================================
+; 神州网信版Windows启用微软账户登录助手服务
+; 适用于解决神州网信版无法使用微软账户登录的问题
+; 来源：http://wuyou.net/forum.php?mod=redirect&goto=findpost&ptid=447464&pid=5851830
+; ==================================================
+ 
+; 策略管理器 - 账户设置
+; 允许Microsoft账户登录助手运行
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\current\device\Accounts]
+"AllowMicrosoftAccountSignInAssistant"=dword:00000001
+; 值说明：
+; dword:00000001 = 启用（允许微软账户登录助手）
+; dword:00000000 = 禁用（默认的神州网信限制设置）
+ 
+; 系统策略 - 用户账户控制
+; 允许连接用户（微软账户）登录系统
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"NoConnectedUser"=dword:00000000
+; 值说明：
+; dword:00000000 = 允许连接用户（启用微软账户登录）
+; dword:00000001 = 禁止连接用户（默认的神州网信限制）
+
+~~~
 
 ## 参考文章：
 

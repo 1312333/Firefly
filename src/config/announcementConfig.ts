@@ -5,7 +5,7 @@ export const announcementConfig: AnnouncementConfig = {
 	title: "",
 
 	// 公告内容
-	content: "欢迎来到我的博客！这是一则示例公告。",
+	content: "一名东莞某中学初三生。随着学业日益紧张繁忙，博客更新将放缓，甚至可能暂时停更，但这绝不会是终点。\n\n国庆假期，祖国迎来77岁生日。祝祖国山河壮丽、大地丰饶，神州沐朝晖！祝大家心有所悦、业有所成，万事皆可期！",
 
 	// 是否允许用户关闭公告
 	closable: true,
@@ -14,7 +14,7 @@ export const announcementConfig: AnnouncementConfig = {
 		// 启用链接
 		enable: true,
 		// 链接文本
-		text: "了解更多",
+		text: "了解我",
 		// 链接 URL
 		url: "/about/",
 		// 内部链接
