@@ -6,7 +6,7 @@
 
 这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
 
-:::note
+:::注意：
 这里不是什么垂直技术博客，种类会很杂：
 :::
 
@@ -16,7 +16,7 @@
 > [!NOTE] 经验交流
 交流维护经验,你可以在[智教联盟论坛](https://forum.smart-teach.cn/)上看到[我](https://forum.smart-teach.cn/u/AWAurora233)
 
-> [!NOTE]
+> [!NOTE] 生活
 > 二次元、~~开发日常~~、日常碎碎念。
 
 ## 我的项目

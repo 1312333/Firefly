@@ -1,7 +1,8 @@
 ---
 title: 一些常用教学软件
 published: 2026-10-03
-description: 一些常用教学软件
+updated: 2026-10-04
+description: 整理了常用教学软件与卸载、解压、播放器等实用工具，附官方下载与来源。
 image: "api"
 tags: [教程, 软件]
 category: 教程
@@ -49,10 +50,7 @@ link:
   📥 前往 Releases 下载
 </a>
 
-link:
-  - label: "STCN论坛"
-    icon: "material-symbols:menu-book"
-    value: "https://forum.smart-teach.cn/d/1039"
+<https://forum.smart-teach.cn/d/1039>
 
 ## 教学辅助 / 批注
 
@@ -65,10 +63,7 @@ link:
   📥 前往 Releases 下载
 </a>
 
-link:
-  - label: "STCN论坛"
-    icon: "material-symbols:menu-book"
-    value: "https://forum.smart-teach.cn/d/467"
+<https://forum.smart-teach.cn/d/467>
 
 [官网](https://icc-ce.inkeys.top/)
 
@@ -81,6 +76,18 @@ link:
 [GitHub](https://github.com/SECTL/SecRandom)
 
 ## 其它
+
+### LX Music / 洛雪音乐
+
+[官网](https://www.lxmusic.cn/)
+
+[GitHub](https://github.com/lyswhut/lx-music-desktop)
+
+#### 音源仓库
+
+[guoyue2010/lxmusic-](https://github.com/guoyue2010/lxmusic-)
+
+[Macrohard0001/lx-ikun-music-sources](https://github.com/Macrohard0001/lx-ikun-music-sources)
 
 ### 卸载工具
 
@@ -100,7 +107,25 @@ link:
 
 [PotPlayer 播放器](https://potplayer.daum.net/) 功能强大的全能播放器（字幕、倍速、截屏齐全）。官网打不开，试试 [Windows 64 位官方「Latest」直链](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe)，始终是最新版
 
+### Virus Detector - 银狐木马检测浏览器扩展
+
+[GitHub](https://github.com/Lolitide/VirusDetector)
+
+### 图拉丁吧工具箱
+
+[官方下载](https://www.tbtool.cn/download/)
+
+[图吧工具箱CE](https://tubawinui3.cn/download) 是原版图吧工具箱的 WinUI3 社区重构版（Community Edition）。[GitHub](https://github.com/luolangaga/tubatools)项目地址
+
+### Microsoft Store / 微软应用商店
+
+Microsoft Store[「下载」](https://store-images.s-microsoft.com/image/apps.23920.9007199266252480.ef650c0b-5855-42e5-95aa-16fe9d95c138.a336dde8-771a-4160-a7dc-b2f0cc3f4b6b?h=170)
+
+本机若没有「应用商店」，上面的商店链接会打不开，或反过来让你「先去商店里下载商店」——变成死循环。联网状态下按 Win+R 输入 wsreset -i 回车，Windows 会自动把商店装回来（1–3 分钟，期间没有进度条）；若仍无效，用管理员身份打开 PowerShell 执行 winget install 9WZDNCRFJBMP。装好后回到本页点「下载」即可。",
+
 ## 文档
+
+[电教委员指南](https://cnel.smart-teach.cn/)
 
 [电教委员常用软件下载站](https://classsoftwarehub.132614.xyz/)
 
@@ -109,3 +134,11 @@ link:
 更多软件可以前往[Awesome IWB](https://aiwb.smart-teach.cn/)寻找。本页只收录原帖地址，不代表软件仍在维护，也不对第三方软件的安全性、稳定性或使用后果负责；使用前请自行判断并做好数据备份。
 
 你可以在[STCN论坛所有辅助工具收集与查询帖](https://forum.smart-teach.cn/d/2692)上查看其它教学内容
+
+[你缺失的那门手机课](https://classtechstar.github.io/Yihggh.github.io/)
+
+## 更多软件
+
+你可以访问[[guide-app-1|其它软件]]查看更多软件
+
+[[guide-app-1|其它软件]]
