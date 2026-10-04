@@ -54,6 +54,42 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				cover: "/assets/music/cover/109951169585655912.webp",
 				lrc: "",
 			},
+			{
+				name: "好想爱这个世界啊 / この世界を愛したい",
+				artist: "鹿乃",
+				url: "/assets/music/この世界を愛したい - 鹿乃.mp3",
+				lrc: "",
+			},
+			{
+				name: "彼女は旅に出る",
+				artist: "鎖那",
+				url: "/assets/music/彼女は旅に出る - 鎖那.mp3",
+				lrc: "",
+			},
+			{
+				name: "好想爱这个世界啊",
+				artist: "华晨宇",
+				url: "/assets/music/好想爱这个世界啊 - 华晨宇.mp3",
+				lrc: "",
+			},
+			{
+				name: "鸟之诗 / 鳥の詩",
+				artist: "Lia",
+				url: "/assets/music/鳥の詩 - Lia.mp3",
+				lrc: "",
+			},
+			{
+				name: "千本樱 / 千本桜",
+				artist: "黒うさP、初音ミク",
+				url: "/assets/music/千本桜 - 黒うさP、初音ミク.mp3",
+				lrc: "",
+			},
+			{
+				name: "神的随波逐流 / 神のまにまに",
+				artist: "初音ミク、鏡音リン、GUMI、れるりり",
+				url: "/assets/music/神のまにまに - 初音ミク、鏡音リン、GUMI、れるりり.mp3",
+				lrc: "",
+			},
 		],
 	},
 };

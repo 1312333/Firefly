@@ -80,12 +80,15 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			titleSize: "4.5rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"夜色难免黑凉，前行必有曙光",
+				"微光会吸引微光，微光会吸引微光，我们一起相互找到，然后一起发光",
+				"不要放弃其中的任何一秒，因为每一秒都是让自己更接近梦想的重要时刻",
+				"道路是曲折的，前方是迷雾深处，但勇敢前行，你会发现成功离你不会太远",
+				"坚持一件有意义的事情，即便路程困难重重，也要毫不犹豫地迈出第一步",
+				"跳出原有的格局，用积极的心态，去学习新的思维方式，许多困难都能迎刃而解",
+				"人生漫长又短暂，每一天都是限量版，不辜负每一个今天，就是对未来最好的交代",
+				"敢迈别人没走过的路，才能收获别样风景；敢拓前人没垦过的荒，才能开辟新的空间",
+				"携手协作，希望在前；脚下有光，不惧黑暗。这个光，是人类的互助之光、协作之光、文明之光",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
@@ -132,7 +135,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 壁纸轮播配置，横幅壁纸和全屏壁纸共享，仅在配置多张图片时生效
 		carousel: {
 			// 是否启用壁纸轮播；关闭时保持每次刷新随机显示一张
-			enable: false,
+			enable: true,
 			// 轮播切换间隔（毫秒）
 			interval: 5000,
 			// 过渡效果: 'fade' 渐变 | 'zoom' 缩放 | 'slide' 滑动 | 'kenburns' 旋转木马

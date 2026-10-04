@@ -4,8 +4,8 @@ published: 2026-10-03
 updated: 2026-10-04
 description: 整理了常用教学软件与卸载、解压、播放器等实用工具，附官方下载与来源。
 image: "api"
-tags: [教程, 软件]
-category: 教程
+tags: [分享, 软件]
+category: 分享
 draft: false
 ---
 
@@ -34,10 +34,7 @@ draft: false
   📥 前往 Releases 下载
 </a>
 
-link:
-  - label: "STCN论坛"
-    icon: "material-symbols:menu-book"
-    value: "https://forum.smart-teach.cn/d/3046"
+[STCN论坛](https://forum.smart-teach.cn/d/3046)
 
 ## 希沃相关
 
@@ -50,7 +47,7 @@ link:
   📥 前往 Releases 下载
 </a>
 
-<https://forum.smart-teach.cn/d/1039>
+[STCN论坛](https://forum.smart-teach.cn/d/1039)
 
 ## 教学辅助 / 批注
 
@@ -63,7 +60,7 @@ link:
   📥 前往 Releases 下载
 </a>
 
-<https://forum.smart-teach.cn/d/467>
+[STCN论坛](https://forum.smart-teach.cn/d/467)
 
 [官网](https://icc-ce.inkeys.top/)
 
