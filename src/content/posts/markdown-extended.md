@@ -166,6 +166,91 @@ export const siteConfig: SiteConfig = {
 > [!NOTE] 自定义标题
 > 这是一个带有自定义标题的示例。
 ```
+
+> [!NOTE] NOTE
+> 通用的笔记块。
+
+> [!ABSTRACT] ABSTRACT
+> 文章的摘要。
+
+> [!SUMMARY] SUMMARY
+> 文章的总结（同 Abstract）。
+
+> [!TLDR] TLDR
+> 太长不看（同 Abstract）。
+
+> [!INFO] INFO
+> 提供额外信息。
+
+> [!TODO] TODO
+> 需要完成的事项。
+
+> [!TIP] TIP
+> 实用技巧或提示。
+
+> [!HINT] HINT
+> 暗示（同 Tip）。
+
+> [!IMPORTANT] IMPORTANT
+> 重要信息（Obsidian 风格通常使用类似的图标）。
+
+> [!SUCCESS] SUCCESS
+> 操作成功。
+
+> [!CHECK] CHECK
+> 检查通过（同 Success）。
+
+> [!DONE] DONE
+> 已完成（同 Success）。
+
+> [!QUESTION] QUESTION
+> 提出问题。
+
+> [!HELP] HELP
+> 寻求帮助（同 Question）。
+
+> [!FAQ] FAQ
+> 常见问题（同 Question）。
+
+> [!WARNING] WARNING
+> 警告信息。
+
+> [!CAUTION] CAUTION
+> 注意事项（同 Warning）。
+
+> [!ATTENTION] ATTENTION
+> 引起注意（同 Warning）。
+
+> [!FAILURE] FAILURE
+> 操作失败。
+
+> [!FAIL] FAIL
+> 失败（同 Failure）。
+
+> [!MISSING] MISSING
+> 缺失内容（同 Failure）。
+
+> [!DANGER] DANGER
+> 危险操作警告。
+
+> [!ERROR] ERROR
+> 错误信息（同 Danger）。
+
+> [!BUG] BUG
+> 报告软件缺陷。
+
+> [!EXAMPLE] EXAMPLE
+> 展示一个例子。
+
+> [!QUOTE] QUOTE
+> 引用一段话。
+
+> [!CITE] CITE
+> 引证（同 Quote）。
+
+> [!NOTE] 自定义标题
+> 这是一个带有自定义标题的示例。
+
 </details>
 
 ![Obsidian](./images/obsidian.avif)

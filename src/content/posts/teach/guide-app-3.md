@@ -1,7 +1,7 @@
 ---
 title: Win10神州网信政府版修改教程
 published: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-05
 description: 修改希沃七代机上"非常好用"的Win10神州网信政府版
 tags: [教程, 软件]
 category: 教程
@@ -9,24 +9,22 @@ draft: false
 ---
 
 > [!DANGER] DANGER
-> # ***此文章没有写完***
+> ***此文章没有写完，如果看到一些错误，欢迎在评论区提出***
 
 > [!IMPORTANT] 重要
 >**本篇博客中所有软件，内容来自互联网，本站只做免费推荐用于学习分享，且注明了出处，仅限参考、教学与个人使用交流！请勿用于商业目的！**
 
+> [!TODO] TODO
+> 如果出现windows组策略修改提示`windows无法获取此电脑上的组策略`时，**把杀软删了！！！**
 
-<details>
-<summary>标准Win10神州网信政府版需要增加的教程，一般用不到</summary>
+## 标准Win10神州网信政府版需要增加的教程，一般用不到
 
-即，复制借用部分
+复制借用部分
 
-作者：NiGhT_Ray
-
-出处：https://www.cnblogs.com/night-ray/p/14838652.html
-
-版权：本作品采用「署名-非商业性使用-相同方式共享 4.0 国际」许可协议进行许可。
-
-备注：由于部分地区运营商DNS污染，若无法访问蓝奏云链接，请修改域名为wwsx.lanzoue.com或其他最新域名
+> 作者：NiGhT_Ray
+> 出处：https://www.cnblogs.com/night-ray/p/14838652.html
+> 版权：本作品采用「署名-非商业性使用-相同方式共享 4.0 国际」许可协议进行许可。
+> 备注：由于部分地区运营商DNS污染，若无法访问蓝奏云链接，请修改域名为wwsx.lanzoue.com或其他最新域名
 
 ### 取消Ctrl+Alt+Del打开启动屏幕
 `Win + R`调出运行窗口键入`gpedit.msc`打开组策略，找到计算机配置->Windows设置->安全设置->本地策略->安全选项
@@ -50,7 +48,7 @@ draft: false
 ![图片2](/public/assets/images/article-images/2026/1751997-20211202125328133-1632371670.png)
 
 2. 系统设置
-gpedit.msc打开组策略->计算机配置->管理模板->windows组件->应用隐私
+`gpedit.msc`打开组策略->计算机配置->管理模板->windows组件->应用隐私
 允许Windows应用访问相机---未配置，或强制允许。允许Windows应用访问麦克风---未配置，或强制允许
 
 ### 取消强密码
@@ -58,7 +56,7 @@ gpedit.msc打开组策略->计算机配置->管理模板->windows组件->应用�
 `密码必须符合复杂性要求`禁用，密码长度最小值、最短和最长使用期限都改成0，重启再次输密码登陆到桌面后，双击`ctrl+alt+del`点更改密码，输入旧密码，两次新密码不用输入，即清空了密码。
 
 ### 解除屏幕保护程序限制（选项灰色不可更改）
-gpedit.msc打开组策略->用户配置->管理模板->控制面板->个性化，将所有与屏幕保护程序相关的选项改为未配置即可。
+`gpedit.msc`打开组策略->用户配置->管理模板->控制面板->个性化，将所有与屏幕保护程序相关的选项改为未配置即可。
 
 ![图片3](https://img2022.cnblogs.com/blog/1751997/202201/1751997-20220121133104895-695358431.png)
 
@@ -92,53 +90,53 @@ gpedit.msc打开组策略->用户配置->管理模板->控制面板->个性化�
 
 # 希沃七代机上"非常好用"的Win10神州网信政府版修改方式
 
-即，复制借用部分
+复制借用部分
 
-作者：兰柯耴梦
+> 作者：兰柯耴梦
+> 出处：https://zhuanlan.zhihu.com/p/593119197
 
-出处：https://zhuanlan.zhihu.com/p/593119197
 ## 一，部分权限设置
 
 即，复制借用部分
 
-作者：迦叶
-链接：https://www.zhihu.com/question/413162271/answer/1409962301
-来源：知乎
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+> 作者：迦叶
+> 链接：https://www.zhihu.com/question/413162271/answer/1409962301
+> 来源：知乎
+> 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 ### 1、解禁开启麦克风和摄像头
-gpedit.msc打开组策略---》计算机配置---》管理模板---》windows组件---》应用隐私
+`gpedit.msc`打开组策略---》计算机配置---》管理模板---》windows组件---》应用隐私
 允许Windows应用访问相机---未配置，或强制允许。允许Windows应用访问麦克风---未配置，或强制允许
 
 ### 2、取消强密码
-gpedit.msc打开组策略---》计算机配置---》Windows设置---》安全设置---》本地策略---》安全选项
+`gpedit.msc`打开组策略---》计算机配置---》Windows设置---》安全设置---》本地策略---》安全选项
 “用户账户控制：以管理员批准模式运行所有管理员”禁用。
-gpedit.msc打开组策略---》Windows设置---》安全设置---》账户策略---》密码策略
+`gpedit.msc`打开组策略---》Windows设置---》安全设置---》账户策略---》密码策略
 “密码必须符合复杂性要求”禁用，密码长度最小值、最短和最长使用期限都改成0，重启再次输密码登陆到桌面后，双击“ctrl+alt+del”点更改密码，输入旧密码，两次新密码不用输入，即清空了密码。
 
 ### 3、取消三键打开启动屏幕
-gpedit.msc打开组策略---》计算机配置---》Windows设置---》安全设置---》本地策略---》安全选项
+`gpedit.msc`打开组策略---》计算机配置---》Windows设置---》安全设置---》本地策略---》安全选项
 “交互式登录：无须按ctrl+alt+dle”已启用
 
 ### 4、登录Microsoft账户（设置-账户中，改为Microsoft账户登录，可用）
-gpedit.msc打开组策略---》计算机配置---》Windows设置---》安全设置---》本地策略---》安全选项
+`gpedit.msc`打开组策略---》计算机配置---》Windows设置---》安全设置---》本地策略---》安全选项
 账户：阻止Microsoft账户，右键属性，选择此策略以禁用
-gpedit.msc打开组策略---》计算机配置---》管理模板---》Windows组件---》云内容
+`gpedit.msc`打开组策略---》计算机配置---》管理模板---》Windows组件---》云内容
 关闭Microsoft用户体验这项，改为未配置
 
 ### 5、解除应用商店以阻止（下载和安装应用，也需要启用第4项最后一条）
-gpedit.msc打开组策略---》计算机配置---》管理模板---》系统---》internet通信设置
+`gpedit.msc`打开组策略---》计算机配置---》管理模板---》系统---》internet通信设置
 关闭访问Microsoft Store，改为未配置
-gpedit.msc打开组策略---》计算机配置---》管理模板---》windows组件---》应用商店
+`gpedit.msc`打开组策略---》计算机配置---》管理模板---》windows组件---》应用商店
 关闭Microsoft Store应用程序，改为未配置
 禁止来自Microsoft Store的所有应用，改为未配置
 
 ### 6、启用系统通知
-gpedit.msc打开组策略---》计算机配置---》管理模板---》开始菜单和任务栏---》通知，未配置
+`gpedit.msc`打开组策略---》计算机配置---》管理模板---》开始菜单和任务栏---》通知，未配置
 
 ### 7、屏幕保护程序无法更改解决方法：
 点开始--windows系统--命令提示符(以管理员身份打开)
-键入gpedit.msc确定
+键入`gpedit.msc`确定
 用户配置-管理模板-控制面板-个性化
 启用屏幕保护程序
 带密码的屏幕保护程序
@@ -148,13 +146,13 @@ gpedit.msc打开组策略---》计算机配置---》管理模板---》开始菜�
 
 ## 二、微软账户登录
 
-执行gpedit.msc打开组策略---》计算机配置---》管理模板---》系统---》internet通信设置 （文件夹内选项）关闭访问Microsoft Store，改为未配置后。
+执行`gpedit.msc`打开组策略---》计算机配置---》管理模板---》系统---》internet通信设置 （文件夹内选项）关闭访问Microsoft Store，改为未配置后。
 
 此操作只能点亮计算机Microsoft账户登录，让其高亮能操作，实际上登录的过程中还是会被阻止，出现登录错误。
 
 此处需要执行：
 
-1.gpedit.msc打开组策略---》计算机配置---》管理模板---》系统---》internet通信设置 ---》限制Internet 通信，改为未配置。
+1.`gpedit.msc`打开组策略---》计算机配置---》管理模板---》系统---》internet通信设置 ---》限制Internet 通信，改为未配置。
 
 2.接着回到电脑桌面，点击我的电脑，右键“管理”，进入后找到“服务和应用程序”，点开“服务”。
 
@@ -168,28 +166,27 @@ gpedit.msc打开组策略---》计算机配置---》管理模板---》开始菜�
 
 ## 三、Microsoft store安装
 
-安装仍借用别人的杰作，新说的，主要是安装后的部分。
-
-
+安装仍借用别人的杰作
 
 作者：冰墩墩
 
 如果电脑Windows10中没有Microsoft store，可以用以下方法安装。
-按 Win + Q 打开搜索，输入 powershell，然后以管理员身份运行；
+按`Win + Q`打开搜索，输入`powershell`，然后以管理员身份运行；
 
 
-复制下面的代码，粘贴到powershell窗口中并按 Enter 执行（powershell中的粘贴键是鼠标右键）：
+复制下面的代码，粘贴到`powershell`窗口中并按 Enter 执行（powershell中的粘贴键是鼠标右键）：
 Get-AppXPackage *WindowsStore* -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 
-
+或者：
+联网状态下按`Win+R`输入`wsreset -i`回车，Windows 会自动把商店装回来（1–3 分钟，期间没有进度条）；若仍无效，用管理员身份打开`powershell`执行`winget install 9WZDNCRFJBMP`
 
 最后重启电脑就可以了。
 
 如果上面的方法没有用，或者你的系统是 LTSC/LTSB版本，可以尝试专门的工具来安装 Microsoft Store。
 
-Microsoft Store安装工具：
+### Microsoft Store安装工具：
 
-LTSC 2021 修复包 [GitHub 项目地址](http://github.com/brokyz/Win10_LTSC_2021_FixPacks)
+LTSC 2021 修复包： [GitHub 项目地址](http://github.com/brokyz/Win10_LTSC_2021_FixPacks)
 
 下载后,将文件解压，在解压好的文件夹里，点击打开 名为Add-Store（文件类型为windows命令脚本）的文件，键入命令Add-Store.cmd回车即可。
 
@@ -202,29 +199,58 @@ LTSC 2021 修复包 [GitHub 项目地址](http://github.com/brokyz/Win10_LTSC_20
 Microsoft Store安装好了后，能在里面搜索下载软件，但是，仍任会卡在下载界面，显示错误，即
 
 
-解决步骤如下：
+### 解决步骤如下：
 
 首先设置用户配置
 
 1、按下`Win+R`组合键呼出运行，在框中输入`gpedit.msc`按下回车键打开`本地组策略编辑器`
 
-　　2、在“本地组策略”编辑器左侧依次展开“用户配置”—“管理模板”—“indows组件”—“Windows Installer”打开
+2、在`本地组策略`编辑器左侧依次展开“用户配置”—“管理模板”—“indows组件”—“Windows Installer”打开
 
-　　3、找到“始终以提升的权限安装”项目双击打开，把策略设置为`已启动`，点击应用并确定。
+3、找到“始终以提升的权限安装”项目双击打开，把策略设置为`已启动`，点击应用并确定。
 
-　　4、接着设置“阻止从可移动媒体进行任何安装”为“已禁用”确定之后，设置完成。
+4、接着设置`阻止从可移动媒体进行任何安装`为`已禁用`确定之后，设置完成。
 
 最后设置计算机配置
 
 1、按下`Win+R`组合键呼出运行，在框中输入`gpedit.msc`按下回车键打开“本地组策略编辑器”
 
-　　2、在“本地组策略”编辑器左侧依次展开“计算机配置”—“管理模板”—“indows组件”—“Windows Installer”打开。
+2、在`本地组策略`编辑器左侧依次展开`计算机配置 — 管理模板 — Windows组件 — Windows Installer`打开。
 
 3、找到`关闭Windows Installer`项目双击打开，把策略设置为“未配置”，点击应用并确定。
 
-　　4、接着设置`阻止用户使用Windows Installer安装更新和升级程序`为`已禁用`确定之后，设置完成
+4、接着设置`阻止用户使用Windows Installer安装更新和升级程序`为`已禁用`确定之后，设置完成
 
 重启计算机后，就能正常通过Microsoft Store下载更新软件了。
+
+## 用脚本扬组策略
+
+一、组策略还原：
+1.使用`Windows + X`快捷键打开`「命令提示符(管理员)」`
+2.执行如下命令，之后重启电脑即可。
+`secedit /configure /cfg %windir%\inf\defltbase.inf /db defltbase.sdb /verbose `
+二、组策略重置：
+1.使用`Windows + X`快捷键打开`「命令提示符(管理员)」`
+2.执行如下命令，之后重启计算机即可
+~~~
+RD /S /Q "%WinDir%\System32\GroupPolicyUsers" 
+RD /S /Q "%WinDir%\System32\GroupPolicy" 
+gpupdate /force
+~~~
+
+> 备注：
+> 该方法可以直接从安装 Windows 的分区中直接删除组策略配置文件夹，达到重置目的
+> 以上所述方法适用于所有windows系统
+
+或者：
+按下`Win+R`组合键呼出运行，在框中输入`cmd`按下`shift+回车键`打开`cmd`，然后粘贴以下脚本
+
+~~~
+secedit /configure /cfg %windir%\inf\defltbase.inf /db defltbase.sdb /verbose
+RD /S /Q "%WinDir%\System32\GroupPolicyUsers" 
+RD /S /Q "%WinDir%\System32\GroupPolicy" 
+gpupdate /force
+~~~
 
 ## 神州网信Windows10启动Microsoft Account Sign-in Assistant服务时提示0x800704ec的解决办法
 
@@ -261,6 +287,14 @@ Windows Registry Editor Version 5.00
 ; dword:00000001 = 禁止连接用户（默认的神州网信限制）
 
 ~~~
+
+## 神州网信政府版直接更新
+
+非要直接更新的话用注册表编辑器，定位到 计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+将 EditionID 改为 EnterpriseS
+**详细步骤**可以看这个：
+
+<iframe width="100%" height="468" src="https://www.bilibili.com/video/BV1EAKLeUEZJ/?spm_id_from=333.1387.homepage.video_card.click&vd_source=4acd65623d89fa955a36280c19da42f7" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" &autoplay=0> </iframe>
 
 ## 参考文章：
 
