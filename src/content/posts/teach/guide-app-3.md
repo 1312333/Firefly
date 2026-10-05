@@ -39,7 +39,7 @@ draft: false
 分流：[蓝奏云](https://wwa.lanzoui.com/iBnN9q5i7of)
 举例：将.cab后缀文件拖到C:\sxs目录下，然后以管理员方式打开PowerShell或Cmd，直接粘贴语句`dism.exe /online /enable-feature /featurename:NetFX3 /Source:c:\sxs`回车等待就好了。
 
-![图片1](https://img2020.cnblogs.com/blog/1751997/202106/1751997-20210613144436674-31698719.png)
+![图片1](/public/assets/images/article-images/2026/1751997-20210613144436674-31698719.png)
 
 ### 解禁麦克风和摄像头限制
 1. 官方工具
@@ -47,7 +47,7 @@ draft: false
 官网地址：[官网链接](https://support.cmgos.com/cmgetools/cmge_mic_camera_tool)
 分流：[蓝奏云](https://wwa.lanzoui.com/i28lNq0jyed)
 
-![图片2](https://img2020.cnblogs.com/blog/1751997/202112/1751997-20211202125328133-1632371670.png)
+![图片2](/public/assets/images/article-images/2026/1751997-20211202125328133-1632371670.png)
 
 2. 系统设置
 gpedit.msc打开组策略->计算机配置->管理模板->windows组件->应用隐私
@@ -189,6 +189,8 @@ Get-AppXPackage *WindowsStore* -AllUsers | Foreach {Add-AppxPackage -DisableDeve
 
 Microsoft Store安装工具：
 
+LTSC 2021 修复包 [GitHub 项目地址](http://github.com/brokyz/Win10_LTSC_2021_FixPacks)
+
 下载后,将文件解压，在解压好的文件夹里，点击打开 名为Add-Store（文件类型为windows命令脚本）的文件，键入命令Add-Store.cmd回车即可。
 
 
@@ -204,23 +206,23 @@ Microsoft Store安装好了后，能在里面搜索下载软件，但是，仍�
 
 首先设置用户配置
 
-1、按下“Win+R”组合键呼出运行，在框中输入“gpedit.msc”按下回车键打开“本地组策略编辑器”
+1、按下`Win+R`组合键呼出运行，在框中输入`gpedit.msc`按下回车键打开`本地组策略编辑器`
 
 　　2、在“本地组策略”编辑器左侧依次展开“用户配置”—“管理模板”—“indows组件”—“Windows Installer”打开
 
-　　3、找到“始终以提升的权限安装”项目双击打开，把策略设置为“已启动”，点击应用并确定。
+　　3、找到“始终以提升的权限安装”项目双击打开，把策略设置为`已启动`，点击应用并确定。
 
 　　4、接着设置“阻止从可移动媒体进行任何安装”为“已禁用”确定之后，设置完成。
 
 最后设置计算机配置
 
-1、按下“Win+R”组合键呼出运行，在框中输入“gpedit.msc”按下回车键打开“本地组策略编辑器”
+1、按下`Win+R`组合键呼出运行，在框中输入`gpedit.msc`按下回车键打开“本地组策略编辑器”
 
 　　2、在“本地组策略”编辑器左侧依次展开“计算机配置”—“管理模板”—“indows组件”—“Windows Installer”打开。
 
-3、找到“关闭Windows Installer”项目双击打开，把策略设置为“未配置”，点击应用并确定。
+3、找到`关闭Windows Installer`项目双击打开，把策略设置为“未配置”，点击应用并确定。
 
-　　4、接着设置“阻止用户使用Windows Installer安装更新和升级程序”为“已禁用”确定之后，设置完成
+　　4、接着设置`阻止用户使用Windows Installer安装更新和升级程序`为`已禁用`确定之后，设置完成
 
 重启计算机后，就能正常通过Microsoft Store下载更新软件了。
 

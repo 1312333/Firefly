@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
 	name: "AWAurora233",
 
 	// 个人签名
-	bio: "Hello, I'm AWAurora233.\n\n一个正在学C#的人机...",
+	bio: "Hello, I'm AWAurora233.\n一个正在学C#的人机...",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
@@ -46,9 +46,9 @@ export const profileConfig: ProfileConfig = {
 			showName: false,
 		},
 		{
-			name: "Atom",
-			icon: "fa7-solid:atom",
-			url: "/atom/",
+			name: "开往",
+			icon: "fa7-solid:train-subway",
+			url: "https://www.travellings.cn/go",
 			showName: false,
 		},
 	],

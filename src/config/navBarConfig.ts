@@ -110,10 +110,10 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-brands:github",
 			},
 			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
+				name: "开往",
+				url: "https://www.travellings.cn/go",
 				external: true,
-				icon: "fa7-brands:gitee",
+				icon: "fa7-solid:train-subway",
 			},
 			{
 				name: "Firefly文档",
