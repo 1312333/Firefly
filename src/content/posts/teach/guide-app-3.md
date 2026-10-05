@@ -3,6 +3,7 @@ title: Win10神州网信政府版修改教程
 published: 2026-10-04
 updated: 2026-10-05
 description: 修改希沃七代机上"非常好用"的Win10神州网信政府版
+image: "api"
 tags: [教程, 软件]
 category: 教程
 draft: false
@@ -186,7 +187,7 @@ draft: false
 
 
 复制下面的代码，粘贴到`powershell`窗口中并按 Enter 执行（powershell中的粘贴键是鼠标右键）：
-Get-AppXPackage *WindowsStore* -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+`Get-AppXPackage *WindowsStore* -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}`
 
 方法2：
 联网状态下按`Win+R`输入`wsreset -i`回车，Windows 会自动把商店装回来（1–3 分钟，期间没有进度条）；若仍无效，用管理员身份打开`powershell`执行`winget install 9WZDNCRFJBMP`
@@ -307,7 +308,7 @@ Windows Registry Editor Version 5.00
 > 请在**直接更新前**把windows组策略中的选项**按上面步骤修改**
 > ***你也不想更新后被神州网信折磨吧***
 
-**视频~~~(详细步骤?)~~**可以看这个：
+**视频~~(详细步骤?)~~**可以看这个：
 
 <iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1EAKLeUEZJ&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" &autoplay=0> </iframe>
 
