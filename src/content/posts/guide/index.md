@@ -5,7 +5,6 @@ published: 1970-01-02
 description: "如何使用 Firefly 博客模板。"
 image: "./cover.avif"
 tags: ["Firefly", "博客", "Markdown", "指南"]
-category: 文章示例
 series: "Firefly 功能示例"
 seriesOrder: 1
 ---
