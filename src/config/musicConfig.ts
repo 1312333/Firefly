@@ -48,6 +48,20 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
+				name: "独角",
+				artist: "UnicornPhantom",
+				url: "/assets/music/独角 - UnicornPhantom.mp3",
+				cover: "/assets/music/cover/独角.jpg",
+				lrc: "",
+			},
+			{
+				name: "漫步",
+				artist: "UnicornPhantom",
+				url: "/assets/music/漫步 - UnicornPhantom.mp3",
+				cover: "/assets/music/cover/漫步.jpg",
+				lrc: "",
+			},
+			{
 				name: "好想爱这个世界啊 / この世界を愛したい",
 				artist: "鹿乃",
 				url: "/assets/music/この世界を愛したい - 鹿乃.mp3",
@@ -88,6 +102,20 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				url: "/assets/music/神のまにまに - 初音ミク、鏡音リン、GUMI、れるりり.mp3",
 				cover: "/assets/music/cover/神のまにまに - 初音ミク、鏡音リン、GUMI、れるりり_cover.jpg",
 				lrc: "/assets/music/lrc/神のまにまに - 初音ミク、鏡音リン、GUMI、れるりり.lrc",
+			},
+			{
+				name: "星茶会",
+				artist: "灰澈",
+				url: "/assets/music/星茶会 - 灰澈.mp3",
+				cover: "/assets/music/cover/星茶会.jpg",
+				lrc: "",
+			},
+			{
+				name: "月茶会",
+				artist: "灰澈",
+				url: "/assets/music/月茶会 - 灰澈.mp3",
+				cover: "/assets/music/cover/月茶会.jpg",
+				lrc: "",
 			},
 		],
 	},

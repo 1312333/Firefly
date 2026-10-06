@@ -1,19 +1,16 @@
 ---
 title: GitHub访问教程
 published: 2026-10-05
-updated: 2026-10-05
-description: GitHub访问教程
+updated: 2026-10-06
+description: 使用一些工具访问GitHub
+image: "api"
 tags: [教程, 软件]
 category: 教程
 draft: false
 ---
 
-> [!DANGER] DANGER
-> ***本文没有写完***
-
 > [!IMPORTANT] 重要
 >**本篇博客中所有软件，内容来自互联网，本站只做免费推荐用于学习分享，且注明了出处，仅限参考、教学与个人使用交流！请勿用于商业目的！**
-
 
 是这样的，Github是一个代码托管平台，课表岛(ClassIsland)代码就在上面，但是众所周知Github在国内体验~~非常好~~，大部分时间是连不上的，就算连上了体验不是很友好
 
@@ -48,3 +45,23 @@ draft: false
 [GitHub](https://github.com/creazyboyone/FastGithub)
 
 分流：[Gitee](https://gitee.com/chcrazy/FastGithub/releases)
+
+## 加速站
+
+这里随便列举一个，其它自己在搜索引擎上搜
+
+https://ghproxy.net/
+
+## 插件
+
+要使用任何脚本，首先需要浏览器安装 Tampermonkey 脚本管理器扩展（[Chrome](https://xiu.lanzoub.com/b073l8d1e) / [Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/) / [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。
+
+若上面地址无法打开，手动安装Tampermonkey.crx 扩展（需开启开发者模式）：[蓝奏云](https://xiu.lanzoux.com/b073l8d1e)
+
+点击表格 [安装] 进入脚本介绍页，点击 [安装此脚本] 后弹出扩展提示，再点击 [安装] 即可。
+如果 GreasyFork 访问速度太慢，可以选择点击 [备用] 后弹出扩展提示，再去点击 [安装] 即可。
+
+> [!ATTENTION] ATTENTION
+> 新版本需要在扩展管理界面 Tampermonkey(篡改猴) 详情中启用 允许运行用户脚本 才能正常运行脚本！
+
+Github 增强：[安装](https://greasyfork.org/zh-CN/scripts/412245)|[备用](https://bitbucket.org/xiu2/userscript/raw/master/GithubEnhanced-High-Speed-Download.user.js)
