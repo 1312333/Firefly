@@ -34,12 +34,6 @@ export const profileConfig: ProfileConfig = {
 			showName: false,
 		},
 		{
-			name: "STCN",
-			icon: "fa7-regular:comments",
-			url: "https://forum.smart-teach.cn/u/AWAurora233",
-			showName: false,
-		},
-		{
 			name: "RSS",
 			icon: "fa7-solid:rss",
 			url: "/rss/",

@@ -29,17 +29,8 @@ export const friendsConfig: FriendLink[] = [
 		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
 		siteurl: "https://blog.cuteleaf.cn",
 		tags: ["Blog"],
-		weight: 1, // 权重，数字越大排序越靠前
+		weight: 2, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
-	},
-	{
-		title: "Firefly Docs",
-		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
-		desc: "Firefly主题模板文档",
-		siteurl: "https://docs-firefly.cuteleaf.cn",
-		tags: ["Docs"],
-		weight: 11,
-		enabled: true,
 	},
 	{
 		title: "MKStoler1024's Blog",
@@ -47,7 +38,7 @@ export const friendsConfig: FriendLink[] = [
 		desc: "掠过浮霞光影，最后能赢下生活的，还是我们。",
 		siteurl: "https://blog.edicdn.eu.org",
 		tags: ["Blog"],
-		weight: 10,
+		weight: 30,
 		enabled: true,
 	},
 	{
@@ -56,7 +47,7 @@ export const friendsConfig: FriendLink[] = [
 		desc: "前途似海，来日方长",
 		siteurl: "https://blog.tianhw.top",
 		tags: ["Blog"],
-		weight: 9,
+		weight: 29,
 		enabled: true,
 	},
 	{
@@ -65,7 +56,25 @@ export const friendsConfig: FriendLink[] = [
 		desc: "躬身入局，心为主理，行有尺度，自持本心。",
 		siteurl: "https://blog.fqzlr.top/",
 		tags: ["Blog"],
-		weight: 8,
+		weight: 28,
+		enabled: true,
+	},
+	{
+		title: "Pinpe 的云端",
+		imgurl: "https://pinpe.top/head.jpg",
+		desc: "一片属于自己的云朵。",
+		siteurl: "https://pinpe.top",
+		tags: ["Blog"],
+		weight: 28,
+		enabled: true,
+	},
+	{
+		title: "Firefly Docs",
+		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
+		desc: "Firefly主题模板文档",
+		siteurl: "https://docs-firefly.cuteleaf.cn",
+		tags: ["Docs"],
+		weight: 1,
 		enabled: true,
 	},
 ];

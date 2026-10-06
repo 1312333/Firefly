@@ -37,14 +37,14 @@ export const sponsorConfig: SponsorConfig = {
 			qrCode: "/assets/images/sponsor/wechat.png",
 			link: "",
 			description: "使用 微信 扫码打赏",
-			enabled: false,
+			enabled: true,
 		},
 		{
 			name: "ko-fi",
 			icon: "simple-icons:kofi",
 			qrCode: "",
 			link: "https://ko-fi.com/",
-			description: "Buy a Coffee for Firefly",
+			description: "Buy a Coffee for me",
 			enabled: false,
 		},
 		{
@@ -53,7 +53,7 @@ export const sponsorConfig: SponsorConfig = {
 			qrCode: "",
 			link: "https://ifdian.net/a/",
 			description: "通过 爱发电 进行打赏",
-			enabled: true,
+			enabled: false,
 		},
 	],
 
@@ -61,10 +61,10 @@ export const sponsorConfig: SponsorConfig = {
 	sponsors: [
 		// 示例：已实名打赏者
 		{
-			name: "夏叶",
+			name: "XXX",
 			avatar:
-				"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
-			amount: "¥50",
+				"https://weavatar.com/avatar/d?s=640",
+			amount: "¥0",
 			date: "2025-10-01",
 		},
 
@@ -72,7 +72,7 @@ export const sponsorConfig: SponsorConfig = {
 		{
 			name: "匿名用户",
 			// avatar: "",
-			amount: "¥20",
+			amount: "¥0",
 			date: "2025-10-01",
 		},
 	],
