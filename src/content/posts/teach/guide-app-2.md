@@ -1,7 +1,7 @@
 ---
 title: 一些常用教学软件
 published: 2026-10-03
-updated: 2026-10-04
+updated: 2026-10-06
 description: 整理了常用教学软件与卸载、解压、播放器等实用工具，附官方下载与来源。
 image: "api"
 tags: [分享, 软件]
@@ -18,21 +18,11 @@ draft: false
 
 ### 原版zip压缩包：
 
-<a href="https://github.com/ClassIsland/ClassIsland/releases" 
-   target="_blank"
-   style="display:inline-block; padding:8px 20px; background:#2ea44f; 
-          color:#fff; border-radius:6px; text-decoration:none; font-weight:500;">
-  📥 前往 Releases 下载
-</a>
+[GitHub Releases](https://github.com/ClassIsland/ClassIsland/releases)
 
-### 我使用InnoSetup制作的ClassIsland安装包：
+### 我用InnoSetup制作的ClassIsland安装包：
 
-<a href="https://github.com/1312333/ClassIsland/releases" 
-   target="_blank"
-   style="display:inline-block; padding:8px 20px; background:#2ea44f; 
-          color:#fff; border-radius:6px; text-decoration:none; font-weight:500;">
-  📥 前往 Releases 下载
-</a>
+[GitHub Releases](https://github.com/1312333/ClassIsland/releases)
 
 [STCN论坛](https://forum.smart-teach.cn/d/3046)
 
@@ -40,12 +30,7 @@ draft: false
 
 ### EasiAuto / 希沃白板自动登录
 
-<a href="https://github.com/hxabcd/EasiAuto/releases" 
-   target="_blank"
-   style="display:inline-block; padding:8px 20px; background:#2ea44f; 
-          color:#fff; border-radius:6px; text-decoration:none; font-weight:500;">
-  📥 前往 Releases 下载
-</a>
+[GitHub Releases](https://github.com/hxabcd/EasiAuto/releases)
 
 [STCN论坛](https://forum.smart-teach.cn/d/1039)
 
@@ -53,12 +38,8 @@ draft: false
 
 ### ICC-CE
 
-<a href="https://github.com/InkCanvasForClass/community/releases" 
-   target="_blank"
-   style="display:inline-block; padding:8px 20px; background:#2ea44f; 
-          color:#fff; border-radius:6px; text-decoration:none; font-weight:500;">
-  📥 前往 Releases 下载
-</a>
+[GitHub Releases](https://github.com/InkCanvasForClass/community/releases)
+
 
 [STCN论坛](https://forum.smart-teach.cn/d/467)
 

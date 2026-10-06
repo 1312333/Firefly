@@ -29,7 +29,7 @@ export const friendsConfig: FriendLink[] = [
 		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
 		siteurl: "https://blog.cuteleaf.cn",
 		tags: ["Blog"],
-		weight: 11, // 权重，数字越大排序越靠前
+		weight: 1, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
 	{
@@ -38,6 +38,15 @@ export const friendsConfig: FriendLink[] = [
 		desc: "Firefly主题模板文档",
 		siteurl: "https://docs-firefly.cuteleaf.cn",
 		tags: ["Docs"],
+		weight: 11,
+		enabled: true,
+	},
+	{
+		title: "MKStoler1024's Blog",
+		imgurl: "https://forum.smart-teach.cn/assets/avatars/Jd0IaZYWUnFvFFDx.png",
+		desc: "掠过浮霞光影，最后能赢下生活的，还是我们。",
+		siteurl: "https://blog.edicdn.eu.org",
+		tags: ["Blog"],
 		weight: 10,
 		enabled: true,
 	},
