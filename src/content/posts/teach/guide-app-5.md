@@ -4,7 +4,7 @@ published: 2026-10-06
 updated: 2026-10-06
 description: 面向小白的Windows重装,还原教程
 image: "api"
-tags: [教程, 软件]
+tags: [教程, 软件,Windows,重装,MSDN]
 category: 教程
 draft: false
 ---
@@ -76,5 +76,5 @@ fHash：
 
 你可以在[微软官方下载](https://www.microsoft.com/zh-cn/software-download/)中下载windows升级工具
 或使用镜像升级
-> 如果无法保留`程序和用户文件`时，用注册表编辑器，定位到`计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion`
+> 如果升级工具中无法选择保留`程序和用户文件`时，用注册表编辑器，定位到`计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion`
 将`EditionID`改为`EnterpriseS`

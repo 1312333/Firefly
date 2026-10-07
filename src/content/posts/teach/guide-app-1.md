@@ -2,9 +2,9 @@
 title: 【转载/修改】一些神秘小软件
 published: 2026-10-02
 updated: 2026-10-03
-description: 分享一些实用软件的精简版、激活工具和替代方案，包括 WPS Office 特别版、HEU KMS Activator、Office Tool Plus、希沃白板激活工具等，仅供学习交流。
+description: 分享一些实用软件的精简版、激活工具和替代方案，包括 WPS特别版、HEU KMS Activator、Office Tool Plus、希沃白板激活工具等，仅供学习交流。
 image: "api"
-tags: [分享, 软件]
+tags: [分享, 软件,WPS,Office Tool Plus,KMS,SEEVVO​]
 category: 分享
 draft: false
 sourceLink: https://blog.edicdn.eu.org/posts/nice-softwares.html

@@ -4,7 +4,7 @@ published: 2026-10-05
 updated: 2026-10-06
 description: 使用一些工具访问GitHub
 image: "api"
-tags: [教程, 软件]
+tags: [教程, 软件,Github,Watt Toolkit,FastGithub]
 category: 教程
 draft: false
 ---

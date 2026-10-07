@@ -2,9 +2,9 @@
 title: 一些常用教学软件
 published: 2026-10-03
 updated: 2026-10-06
-description: 整理了常用教学软件与卸载、解压、播放器等实用工具，附官方下载与来源。
+description: 整理了常用教学软件与卸载、解压、播放器等实用工具。
 image: "api"
-tags: [分享, 软件]
+tags: [分享, 软件,ClassIsland,EasiAuto,ICC-CE,SecRandom,洛雪音乐,Geek,VLC]
 category: 分享
 draft: false
 ---

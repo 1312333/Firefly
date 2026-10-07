@@ -1,3 +1,57 @@
+<style>
+    .tech-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 0.5rem;
+        margin: 0.5rem 0;
+    }
+    .tech-card {
+        background: var(--license-block-bg);
+        padding: 1rem 1.25rem;
+        border-radius: var(--radius-large);
+        display: flex;
+        flex-direction: column;
+        gap: 0.35rem;
+        transition-property: all;
+        transition-timing-function: cubic-bezier(.4,0,.2,1);
+        transition-duration: .15s;
+    }
+    .act-card:hover {
+        background-color: var(--btn-regular-bg-hover);
+        cursor: pointer;
+    }
+    .act-card:active{
+        scale: .98;
+        background-color: var(--btn-regular-bg-active);
+    }
+    .tech-label {
+        font-size: 0.88rem;
+        opacity: 0.6;
+        letter-spacing: 0.025em;
+    }
+    .tech-value {
+        font-weight: 500;
+        color: var(--tw-prose-headings);
+    }
+    .lnk{
+        background: var(--license-block-bg);
+        margin: 0.5rem 0px;
+        padding: 1.1rem 1.5rem;
+        border-radius: var(--radius-large);
+        transition-property: all;
+        transition-timing-function: cubic-bezier(.4,0,.2,1);
+        transition-duration: .15s;
+        cursor: pointer;
+    }
+    .lnk:hover{
+        background-color: var(--btn-regular-bg-hover);
+    }
+    .lnk:active{
+        scale: .98;
+        background-color: var(--btn-regular-bg-active);
+    }
+</style>
+
 # 关于我 / About Me
 
 你好！我是 **AWAurora233** ，一只热爱折腾的电教，喜欢研究各种有趣的技术。
@@ -66,10 +120,6 @@
         <span class="tech-label">邮箱</span>
         <span class="tech-value">xiaoyuer2333@outlook.com</span>
     </div>
-    <div class="tech-card act-card" onclick="window.open('https://qm.qq.com/q/afbpscQsvK', '_blank');">
-        <span class="tech-label">QQ</span>
-        <span class="tech-value">3815764522</span>
-    </div>
     <div class="tech-card act-card" onclick="window.open('https://space.bilibili.com/1099587474', '_blank');">
         <span class="tech-label">哔哩哔哩</span>
         <span class="tech-value">3546597638015463</span>
@@ -82,9 +132,11 @@
 
 博客的线路：
 
-<div class="note">
-    <div class="note-title">主站</div>
-    <div>https://free-blog-xiaoyuer.ccwu.cc/</div>
+<div class="tech-grid">
+ <div class="tech-card act-card" onclick="window.open('https://free-blog-xiaoyuer.ccwu.cc', '_blank');">
+    <span class="tech-label">主站</span>
+    <span class="tech-value">https://free-blog-xiaoyuer.ccwu.cc</span>
+  </div>
 </div>
 
 不要问为什么用二级域名，Bro实在是没有钱买顶级域名了。域名太长的原因是Bro注册的时候没看

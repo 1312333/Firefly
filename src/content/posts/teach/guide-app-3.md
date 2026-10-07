@@ -4,7 +4,7 @@ published: 2026-10-04
 updated: 2026-10-06
 description: 修改希沃七代机上"非常好用"的Win10神州网信政府版
 image: "api"
-tags: [教程, 软件]
+tags: [教程, 软件,Win10,神州网信,SEEWO]
 category: 教程
 draft: false
 ---
@@ -47,7 +47,7 @@ draft: false
 分流：[蓝奏云](https://wwa.lanzoui.com/iBnN9q5i7of)
 举例：将.cab后缀文件拖到C:\sxs目录下，然后以管理员方式打开PowerShell或Cmd，直接粘贴语句`dism.exe /online /enable-feature /featurename:NetFX3 /Source:c:\sxs`回车等待就好了。
 
-![图片1](/assets/images/article-images/2026/1751997-20210613144436674-31698719.png)
+![](/assets/images/article-images/2026/1751997-20210613144436674-31698719.png)
 
 ### 解禁麦克风和摄像头限制
 1. 官方工具
@@ -55,7 +55,7 @@ draft: false
 官网地址：[官网链接](https://support.cmgos.com/cmgetools/cmge_mic_camera_tool)
 分流：[蓝奏云](https://wwa.lanzoui.com/i28lNq0jyed)
 
-![图片2](/assets/images/article-images/2026/1751997-20211202125328133-1632371670.png)
+![](/assets/images/article-images/2026/1751997-20211202125328133-1632371670.png)
 
 2. 系统设置
 `gpedit.msc`打开组策略->计算机配置->管理模板->windows组件->应用隐私
@@ -82,11 +82,11 @@ draft: false
 ### 休眠后直接进入桌面
 `gpedit.msc`打开组策略->计算机配置->管理模板->控制面板->个性化，如下图所示，将`不显示锁屏`启用，其他选择未配置。
 
-![图片4](https://img2022.cnblogs.com/blog/1751997/202202/1751997-20220207125457163-1331842797.png)
+![](https://img2022.cnblogs.com/blog/1751997/202202/1751997-20220207125457163-1331842797.png)
 
 运行窗口键入`netplwiz`。
 
-![图片5](https://img2020.cnblogs.com/blog/1751997/202112/1751997-20211202124732536-2043733058.png)
+![](https://img2020.cnblogs.com/blog/1751997/202112/1751997-20211202124732536-2043733058.png)
 
 先选中要设置的账户，再取消选中`要使用本计算机，用户必须输入用户名和密码`选项。
 应用后会出现一个要求输入用户名和密码的菜单，输入确定。
