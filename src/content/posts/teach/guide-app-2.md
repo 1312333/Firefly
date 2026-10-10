@@ -1,122 +1,67 @@
 ---
-title: 一些常用教学软件
-published: 2026-10-03
+title: GitHub访问教程
+published: 2026-10-05
 updated: 2026-10-06
-description: 整理了常用教学软件与卸载、解压、播放器等实用工具。
+description: 使用一些工具访问GitHub
 image: "api"
-tags: [分享, 软件,ClassIsland,EasiAuto,ICC-CE,SecRandom,洛雪音乐,Geek,VLC]
-category: 分享
+tags: [教程, 软件,Github,Watt Toolkit,FastGithub]
+category: 教程
 draft: false
 ---
 
 > [!IMPORTANT] 重要
 >**本篇博客中所有软件，内容来自互联网，本站只做免费推荐用于学习分享，且注明了出处，仅限参考、教学与个人使用交流！请勿用于商业目的！**
 
-## 课表软件 / ClassIsland
+是这样的，Github是一个代码托管平台，课表岛(ClassIsland)代码就在上面，但是众所周知Github在国内体验~~非常好~~，大部分时间是连不上的，就算连上了体验不是很友好
 
-[官网](https://www.classisland.tech/)
+所以我们可以使用一些工具来更好的使用
 
-### 原版zip压缩包：
+## Watt Toolkit「原名 Steam++」
 
-[GitHub Releases](https://github.com/ClassIsland/ClassIsland/releases)
+[官网](https://steampp.net/)
 
-### 我用InnoSetup制作的ClassIsland安装包：
+[Gitee](https://gitee.com/rmbgame/SteamTools/releases)
 
-[GitHub Releases](https://github.com/1312333/ClassIsland/releases)
+[蓝奏云](https://wwn.lanzouy.com/b01v4iz1g) 提取码：`1234`
 
-[STCN论坛](https://forum.smart-teach.cn/d/3046)
+[微软商店](https://apps.microsoft.com/detail/9mtcfhs560ng)
 
-## 希沃相关
+[Github](https://github.com/BeyondDimension/SteamTools)
 
-### EasiAuto / 希沃白板自动登录
+## FastGithub
 
-[GitHub Releases](https://github.com/hxabcd/EasiAuto/releases)
+> [!ABSTRACT] ABSTRACT
+> 写在前面
+> - fastgithub不具备“翻墙”功能,也没有相关的计划
+> - fastgithub不支持Windows7等已被发行方停止支持的操作系统，并且也不会主动提供支持
+> - fastgithub不能为您的游戏加速
+> - fastgithub没有主动在github之外的任何渠道发布
 
-[STCN论坛](https://forum.smart-teach.cn/d/1039)
+> [!CAUTION] CAUTION
+> 合法性说明
+>
+> 《国际联网暂行规定》第六条规定：“计算机信息网络直接进行国际联网，必须使用邮电部国家公用电信网提供的国际出入口信道。任何单位和个人不得自行建立或者使用其他信道进行国际联网。” FastGithub本地代理使用的都是“公用电信网提供的国际出入口信道”，从国外Github服务器到国内用户电脑上FastGithub程序的流量，使用的是正常流量通道，其间未对流量进行任何额外加密（仅有网页原有的TLS加密，区别于VPN的流量加密），而FastGithub获取到网页数据之后发生的整个代理过程完全在国内，不再适用国际互联网相关之规定。
 
-## 教学辅助 / 批注
+[GitHub](https://github.com/creazyboyone/FastGithub)
 
-### ICC-CE
+分流：[Gitee](https://gitee.com/chcrazy/FastGithub/releases)
 
-[GitHub Releases](https://github.com/InkCanvasForClass/community/releases)
+## 加速站
 
+这里随便列举一个，其它自己在搜索引擎上搜
 
-[STCN论坛](https://forum.smart-teach.cn/d/467)
+https://ghproxy.net/
 
-[官网](https://icc-ce.inkeys.top/)
+## 插件
 
-[...文档站](https://docs.iccce.ink/cn/)
+要使用任何脚本，首先需要浏览器安装 Tampermonkey 脚本管理器扩展（[Chrome](https://xiu.lanzoub.com/b073l8d1e) / [Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/) / [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。
 
-## 点名器 / SecRandom
+若上面地址无法打开，手动安装Tampermonkey.crx 扩展（需开启开发者模式）：[蓝奏云](https://xiu.lanzoux.com/b073l8d1e)
 
-[官网](https://secrandom.sectl.cn/)
+点击表格 [安装] 进入脚本介绍页，点击 [安装此脚本] 后弹出扩展提示，再点击 [安装] 即可。
+如果 GreasyFork 访问速度太慢，可以选择点击 [备用] 后弹出扩展提示，再去点击 [安装] 即可。
 
-[GitHub](https://github.com/SECTL/SecRandom)
+> [!ATTENTION] ATTENTION
+> 新版本需要在扩展管理界面 Tampermonkey(篡改猴) 详情中启用 允许运行用户脚本 才能正常运行脚本！
 
-## 其它
-
-### LX Music / 洛雪音乐
-
-[官网](https://www.lxmusic.cn/)
-
-[GitHub](https://github.com/lyswhut/lx-music-desktop)
-
-#### 音源仓库
-
-[guoyue2010/lxmusic-](https://github.com/guoyue2010/lxmusic-)
-
-[Macrohard0001/lx-ikun-music-sources](https://github.com/Macrohard0001/lx-ikun-music-sources)
-
-### 卸载工具
-
-[Geek Uninstaller](https://geekuninstaller.com/) 单文件免安装的深度卸载工具，清残留很干净
-
-[HiBit Uninstaller](https://www.hibitsoft.ir) 一款轻量、免费、无广告的 Windows 第三方卸载工具
-
-### 解压缩软件
-
-[7-Zip](https://www.7-zip.org/) 开源免费、压缩率高、无广告的解压软件
-
-[Bandizip6.29](https://bandisoft.app/bandizip.old/BANDIZIP6-SETUP.EXE?3) 6.29 是最后一个官方无广告的免费版本，之后的版本开始加入广告
-
-### 视频播放器
-
-[VLC media player](https://www.videolan.org/vlc/)
-
-[PotPlayer 播放器](https://potplayer.daum.net/) 功能强大的全能播放器（字幕、倍速、截屏齐全）。官网打不开，试试 [Windows 64 位官方「Latest」直链](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe)，始终是最新版
-
-### Virus Detector - 银狐木马检测浏览器扩展
-
-[GitHub](https://github.com/Lolitide/VirusDetector)
-
-### 图拉丁吧工具箱
-
-[官方下载](https://www.tbtool.cn/download/)
-
-[图吧工具箱CE](https://tubawinui3.cn/download) 是原版图吧工具箱的 WinUI3 社区重构版（Community Edition）。[GitHub](https://github.com/luolangaga/tubatools)项目地址
-
-### Microsoft Store / 微软应用商店
-
-Microsoft Store[「下载」](https://store-images.s-microsoft.com/image/apps.23920.9007199266252480.ef650c0b-5855-42e5-95aa-16fe9d95c138.a336dde8-771a-4160-a7dc-b2f0cc3f4b6b?h=170)
-
-本机若没有「应用商店」，上面的商店链接会打不开，或反过来让你「先去商店里下载商店」——变成死循环。联网状态下按 Win+R 输入 wsreset -i 回车，Windows 会自动把商店装回来（1–3 分钟，期间没有进度条）；若仍无效，用管理员身份打开 PowerShell 执行 winget install 9WZDNCRFJBMP。装好后回到本页点「下载」即可。",
-
-## 文档
-
-[电教委员指南](https://cnel.smart-teach.cn/)
-
-[电教委员常用软件下载站](https://classsoftwarehub.132614.xyz/)
-
-[智教联盟站内辅助工具索引](https://blog.edicdn.eu.org/posts/smart-teach-tools.html)，与[STCN论坛所有辅助工具收集与查询帖](https://forum.smart-teach.cn/d/2692)相比，这里收录了STCN论坛内有独立板块的项目。
-
-更多软件可以前往[Awesome IWB](https://aiwb.smart-teach.cn/)寻找。本页只收录原帖地址，不代表软件仍在维护，也不对第三方软件的安全性、稳定性或使用后果负责；使用前请自行判断并做好数据备份。
-
-你可以在[STCN论坛所有辅助工具收集与查询帖](https://forum.smart-teach.cn/d/2692)上查看其它教学内容
-
-[你缺失的那门手机课](https://classtechstar.github.io/Yihggh.github.io/)
-
-## 更多软件
-
-你可以访问[[guide-app-1|其它软件]]查看更多软件
-
-[[guide-app-1|其它软件]]
+Github 增强：[安装](https://greasyfork.org/zh-CN/scripts/412245)|[备用](https://bitbucket.org/xiu2/userscript/raw/master/GithubEnhanced-High-Speed-Download.user.js)
