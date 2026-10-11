@@ -26,7 +26,7 @@ const pages = resolvePageToggles({
 	// 书签导航页面开关
 	booknav: true,
 	// 哔哩哔哩追番页面开关
-	bilibili: true,
+	bilibili: false,
 	// 番组计划页面开关
 	bangumi: false,
 	// VNDB页面开关
@@ -48,11 +48,11 @@ export const siteConfig: SiteConfig = {
 	subtitle: "Personal Blog",
 
 	// 站点 URL
-	site_url: "https://free-blog-xiaoyuer.ccwu.cc",
+	site_url: "https://blog.xiaoyuer.us.ci",
 
 	// 站点描述
 	description:
-		"此网站是AWAurora233的个人博客使用Firefly模版。",
+		"此网站是AWAurora233的个人博客。",
 
 	// 站点关键词
 	keywords: [

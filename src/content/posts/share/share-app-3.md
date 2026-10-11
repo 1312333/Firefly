@@ -17,6 +17,14 @@ draft: false
 
 [Steam 上的 Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine/)
 
+> 离线版(非本人制作，不同网盘是不同版本)：
+> https://pan.baidu.com/s/1EuhfLoMpgx7Sii4mjHL8Cw?pwd=4hfr
+>
+> https://pan.quark.cn/s/a8d83509a1b1
+> 
+> https://pan.baidu.com/s/1TYh9mLn9iDV7W5nEIva5-Q?pwd=6666 (提取码：6666)
+
+
 # Lively Wallpaper
 
 [GitHub](https://github.com/GiantappMan/livewallpaper)
