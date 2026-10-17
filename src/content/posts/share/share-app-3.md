@@ -1,23 +1,25 @@
 ---
 title: 一些壁纸引擎
 published: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-17
 description: 一些壁纸引擎
 image: "api"
-tags: [分享, 软件]
+tags: [分享, 软件,壁纸,Wallpaper Engine,Lively Wallpaper]
 category: 分享
 draft: false
 ---
 
 > [!IMPORTANT] 重要
->**本篇博客中所有软件，内容来自互联网，本站只做免费推荐用于学习分享，且注明了出处，仅限参考、教学与个人使用交流！请勿用于商业目的！**
+>**本篇博客中所有软件，内容来自互联网，本站只做免费推荐用于学习分享，且注明了出处，仅限参考、教学与个人使用交流！请勿用于商业目的，本站不对您的使用负任何责任！如果您想使用我们收集的下载内容，必须同意这个协议！**
 
 # Wallpaper Engine
 [官网](https://www.wallpaperengine.io/zh-hans)
 
 [Steam 上的 Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine/)
 
-> 离线版(非本人制作，不同网盘是不同版本)：
+> 离线版(非本人制作，不同链接是不同版本)：
+> https://1813596928.share.123pan.cn/123pan/MF0SVv-0DR0v
+
 > https://pan.baidu.com/s/1EuhfLoMpgx7Sii4mjHL8Cw?pwd=4hfr
 >
 > https://pan.quark.cn/s/a8d83509a1b1
