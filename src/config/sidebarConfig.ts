@@ -177,9 +177,9 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：广告栏组件 1
 			type: "advertisement",
 			// 是否启用该组件
-			enable: false,
+			enable: true,
 			// 是否显示组件标题
-			showTitle: false,
+			showTitle: true,
 			// 组件位置
 			position: "sticky",
 			// 是否在文章详情页显示
@@ -187,19 +187,20 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件专属配置（广告内容直接在此配置）
 			specificConfig: {
 				ad: {
-					image: {
-						src: "/assets/images/ad/ad1.webp",
-						alt: "广告横幅",
-						link: "https://haoka.lot-ml.com/plugreg.html?agentid=1423316",
+					title: "公益广告",
+					content: "🛡️ 2026 国家网络安全宣传周",
+					link: {
+						text: "相关链接",
+						url: "https://www.gjwlaqxcz.cn/web/index/index",
 						external: true,
 					},
 					// 是否允许关闭广告
-					closable: false,
+					closable: true,
 					// 显示次数限制，-1为无限制
 					displayCount: -1,
 					// 组件内边距配置
 					padding: {
-						all: "1rem",
+						all: "",
 					},
 				},
 			},

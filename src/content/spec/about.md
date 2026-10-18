@@ -134,15 +134,15 @@
 
 <div class="tech-grid">
  <div class="tech-card act-card" onclick="window.open('https://blog.xiaoyuer.us.ci', '_blank');">
-    <span class="tech-label">主站(托管在cloudflare)</span>
+    <span class="tech-label">主站(托管在Cloudflare)</span>
     <span class="tech-value">https://blog.xiaoyuer.us.ci</span>
   </div>
   <div class="tech-card act-card" onclick="window.open('https://firefly-syys7ero.edgeone.dev', '_blank');">
-    <span class="tech-label">(托管在edgeone)备用临时域名</span>
+    <span class="tech-label">备用临时域名(托管在EdgeOne)</span>
     <span class="tech-value">https://firefly-syys7ero.edgeone.dev</span>
   </div>
   <div class="tech-card act-card" onclick="window.open('https://www.xiaoyuer.us.ci', '_blank');">
-    <span class="tech-label">个人主页</span>
+    <span class="tech-label">个人主页(托管在GitHub Pages)</span>
     <span class="tech-value">https://www.xiaoyuer.us.ci</span>
   </div>
 </div>

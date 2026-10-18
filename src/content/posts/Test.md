@@ -22,4 +22,4 @@ draft: false
 ### 2026/10/01
 博客部署上了cloudflare！，**中国大陆境内部分地区可能无法直接访问。**
 
-DNSHE生成的链接：https://blog.xiaoyuer.us.ci
+链接：https://blog.xiaoyuer.us.ci

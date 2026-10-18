@@ -1,7 +1,7 @@
 ---
 title: 一些壁纸引擎
 published: 2026-10-10
-updated: 2026-10-17
+updated: 2026-10-18
 description: 一些壁纸引擎
 image: "api"
 tags: [分享, 软件,壁纸,Wallpaper Engine,Lively Wallpaper]
@@ -24,7 +24,7 @@ draft: false
 >
 > https://pan.quark.cn/s/a8d83509a1b1
 > 
-> https://pan.baidu.com/s/1TYh9mLn9iDV7W5nEIva5-Q?pwd=6666 (提取码：6666)
+> https://pan.baidu.com/s/1TYh9mLn9iDV7W5nEIva5-Q?pwd=6666 (提取码：`6666`)
 
 
 # Lively Wallpaper
