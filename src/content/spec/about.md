@@ -137,9 +137,9 @@
     <span class="tech-label">主站(托管在Cloudflare)</span>
     <span class="tech-value">https://blog.xiaoyuer.us.ci</span>
   </div>
-  <div class="tech-card act-card" onclick="window.open('https://firefly-syys7ero.edgeone.dev', '_blank');">
+  <div class="tech-card act-card" onclick="window.open('https://www.free-blog-xiaoyuer.ccwu.cc', '_blank');">
     <span class="tech-label">备用临时域名(托管在EdgeOne)</span>
-    <span class="tech-value">https://firefly-syys7ero.edgeone.dev</span>
+    <span class="tech-value">https://www.free-blog-xiaoyuer.ccwu.cc</span>
   </div>
   <div class="tech-card act-card" onclick="window.open('https://www.xiaoyuer.us.ci', '_blank');">
     <span class="tech-label">个人主页(托管在GitHub Pages)</span>
