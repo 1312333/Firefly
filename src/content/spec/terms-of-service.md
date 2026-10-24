@@ -2,10 +2,8 @@
 title: 服务政策
 published: 2026-10-24
 updated: 2026-10-24
-image: ""
 tags: [服务政策]
 category: 博客
-slug: terms-of-service
 draft: false
 ---
 
