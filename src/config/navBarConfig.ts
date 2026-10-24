@@ -93,8 +93,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 			// 关于页面
 			LinkPresets.About,
+
 			// 服务政策
 			LinkPresets.ToS,
+			
+			//状态监控
+			LinkPresets.UptimeFlare,
 		],
 	});
 
