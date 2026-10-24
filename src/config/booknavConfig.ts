@@ -81,6 +81,13 @@ export const booknavConfig: BooknavGroup[] = [
 				icon: "/favicon/firefly-32.png",
 				weight: 10,
 			},
+			{
+				title: "ClassIsland",
+				url: "https://github.com/ClassIsland/ClassIsland",
+				desc: "一款功能强、可定制、跨平台，适用于班级多媒体屏幕的课表信息显示工具，可以一目了然地显示各种信息。",
+				icon: "https://res.classisland.tech/logo.svg",
+				weight: 9,
+			},
 		],
 	},
 	{
@@ -150,6 +157,24 @@ export const booknavConfig: BooknavGroup[] = [
 				url: "https://blog.cuteleaf.cn",
 				desc: "飞萤之火自无梦的长夜亮起",
 				weight: 9,
+			},
+			{
+				title: "智教联盟论坛",
+				url: "https://forum.smart-teach.cn",
+				desc: "智教联盟论坛是全国最大的电教委在线交流社区，始于 2024，由一群有着远大志向的中学生构建。",
+				weight: 8,
+			},
+			{
+				title: "电教委员的常用软件下载站",
+				url: "https://classsoftwarehub.us.ci",
+				desc: "ClassSoftwareHub 是一个面向电教委员的常用软件下载站",
+				weight: 7,
+			},
+			{
+				title: "潇然下载站",
+				url: "https://dl.xrgzs.top/%E6%99%BA%E8%83%BD%E7%99%BD%E6%9D%BF%E9%95%9C%E5%83%8F",
+				desc: "交互式智能白板PC模块系统镜像合集",
+				weight: 6,
 			},
 		],
 	},

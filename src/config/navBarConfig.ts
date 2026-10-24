@@ -93,29 +93,16 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 			// 关于页面
 			LinkPresets.About,
+			// 服务政策
+			LinkPresets.ToS,
 		],
 	});
 
 	// 自定义导航栏链接
 	links.push({
-		name: "链接",
-		url: "#",
-		icon: "material-symbols:link",
-		// 子菜单
-		children: [
-			{
-				name: "开往",
-				url: "https://www.travellings.cn/go",
-				external: true,
-				icon: "fa7-solid:train-subway",
-			},
-			{
-				name: "Firefly文档",
-				url: "https://docs-firefly.cuteleaf.cn",
-				external: true,
-				icon: "material-symbols:docs",
-			},
-		],
+		name: "开往",
+		url: "https://www.travellings.cn/go",
+		icon: "fa7-solid:train-subway",
 	});
 
 	// 文档链接
@@ -234,6 +221,11 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		name: "关于我",
 		url: "/about/",
 		icon: "material-symbols:person",
+	},
+	ToS: {
+		name: "服务政策",
+		url: "/terms-of-service/",
+		icon: "material-symbols:contract",
 	},
 };
 

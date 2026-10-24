@@ -1,7 +1,7 @@
 ---
 title: 一些壁纸引擎
 published: 2026-10-10
-updated: 2026-10-18
+updated: 2026-10-24
 description: 一些壁纸引擎
 image: "api"
 tags: [分享, 软件,壁纸,Wallpaper Engine,Lively Wallpaper]
@@ -17,7 +17,8 @@ draft: false
 
 [Steam 上的 Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine/)
 
-> 离线版(非本人制作，不同链接是不同版本)：
+> > [!DANGER] DANGER
+> > 离线版(非本人制作，不同链接是不同版本，本人不对下载内容和您的使用负任何责任！)：
 > https://1813596928.share.123pan.cn/123pan/MF0SVv-0DR0v
 
 > https://pan.baidu.com/s/1EuhfLoMpgx7Sii4mjHL8Cw?pwd=4hfr
