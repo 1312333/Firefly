@@ -227,6 +227,11 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		url: "/terms-of-service/",
 		icon: "material-symbols:contract",
 	},
+	UptimeFlare: {
+		name: "状态监控",
+		url: "https://status.xiaoyuer.us.ci",
+		icon: "fa7-solid:chart-line",
+	},
 };
 
 export const navBarConfig: NavBarConfig = getDynamicNavBarConfig();
