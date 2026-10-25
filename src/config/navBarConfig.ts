@@ -228,7 +228,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 	},
 	ToS: {
 		name: "服务政策",
-		url: "/terms-of-service/",
+		url: "/posts/terms-of-service/",
 		icon: "material-symbols:contract",
 	},
 	UptimeFlare: {
