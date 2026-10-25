@@ -5,7 +5,7 @@ updated: 2026-10-24
 description: 记录博客运行期间遇到的问题、故障、处理、变更
 tags: [博客,运维]
 category: 博客
-image: ""
+image: "api"
 pinned: true
 draft: false
 ---
