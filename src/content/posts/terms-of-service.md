@@ -12,7 +12,7 @@ draft: false
 > **以下服务政策均为暂行版**
 
 # 隐私政策
-更新日期：2026/10/24 生效日期：2026/10/25
+更新日期：2026/10/25 生效日期：2026/10/26
 
 ## 导言
 `blog.xiaoyuer.us.ci`（下称“本站”、“本服务”或“我们”）非常重视用户的隐私和个人信息保护。您在访问本站时，我们可能会收集和使用您的相关信息。我们希望通过本《隐私政策》向您说明，在访问本站时，我们如何收集、使用、储存和分享这些信息，以及我们为您提供的访问、更新、控制和保护这些信息的方式。本《隐私政策》与您所访问的博客网站息息相关，希望您仔细阅读，并在需要时按照本《隐私政策》的指引，作出您认为适当的选择。本《隐私政策》中涉及的相关技术词汇，我们尽量以简明扼要的表述，并提供进一步说明的链接，以便您的理解。
@@ -24,18 +24,23 @@ draft: false
 ## 1. 我们收集的信息
 我们或我们的第三方合作伙伴提供服务时，可能会收集、储存和使用下列与您有关的信息。如果您不提供相关信息，可能无法达到应有的服务体验。
 
-个人信息，指您在使用我们的服务时，向我们提供的相关个人信息，例如用户名、电子邮件等。
-位置信息，指您在使用我们的服务时，向我们提供的位置信息，例如 IP 地址和 IP 反查得到的大致地理位置信息。
-日志信息，指您访问本站时，系统可能通过 Cookies、标识符及相关技术收集的信息，包括您的设备信息、浏览信息、点击信息，并将该信息储存为日志信息，为您提供个性化的用户体验、保障服务安全。您可以通过浏览器设置拒绝或管理 Cookies、标识符或相关技术的使用。和前述内容相关的详细信息，请参阅 持久化数据政策
+- **个人信息**，指您在使用我们的服务时，向我们提供的相关个人信息，例如用户名、电子邮件等。
+- **位置信息**，指您在使用我们的服务时，向我们提供的位置信息，例如 IP 地址和 IP 反查得到的大致地理位置信息。
+- **日志信息**，指您访问本站时，系统可能通过 Cookies、标识符及相关技术收集的信息，包括您的设备信息、浏览信息、点击信息，并将该信息储存为日志信息，为您提供个性化的用户体验、保障服务安全。您可以通过浏览器设置拒绝或管理 Cookies、标识符或相关技术的使用。和前述内容相关的详细信息，请参阅 持久化数据政策
 例如：
+统计系统用的是Microsoft Clarity，它是微软的产品，会收集：
+- 会话回放（session replay）、热图、点击/滚动/鼠标移动数据
+- 设备信息、浏览器 User-Agent、屏幕尺寸、页面 URL、Referer
+- 可能收集 IP 地址（Clarity 官方文档说会用于地理定位，但不长期存储原始 IP）
+- 通过 Cookie（_clck、_clsk）和 LocalStorage/sessionStorage 存储标识符
+- 数据存储于微软服务器（主要在美国/全球 Azure 区域）
 
-自建的 Artalk 评论系统可能会收集您的昵称、邮箱、网站地址、真实 IP、浏览器 User-Agent 信息或 GitHub OAuth 授权提供的信息。
-自建的 Cap 验证码会收集您的真实 IP
-Umami 统计系统可能会收集您的 IP 属地、浏览器 User-Agent 信息、Referer、设备信息和在本站内的浏览信息。
+- **Giscus 评论系统**：本站使用 Giscus 提供评论功能。Giscus 基于 GitHub Discussions，评论数据实际存储于 GitHub。当评论区加载时，您的 IP 地址与浏览器信息会发送至 giscus.app 与 GitHub 以渲染讨论内容。发表评论需通过 GitHub OAuth 授权 Giscus 应用代表您发布内容，届时您的 GitHub 用户名、头像、个人主页链接及评论内容将在 GitHub 上公开可见。本站不自行存储您的评论数据。Giscus 的隐私实践详见其[隐私政策](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md)
+
 ## 2. 信息存储与交换
-本站收集的有关您的信息和资料将保存在本站及（或）其第三方公司的服务器上。根据多种不同因素，如用户和服务提供商所处的位置，这些信息和资料可能传送至您所在国家、地区或本站收集信息和资料所在地的境外并在境外被访问、存储和展示。
+本站收集的有关您的信息和资料将保存在本站及（或）其第三方公司的服务器上。根据多种不同因素，如用户和服务提供商所处的位置，这些信息和资料可能**传送至您所在国家、地区或本站收集信息和资料所在地的境外**并在境外被访问、存储和展示。
 
-例如，本博客托管于 Vercel 和阿里云 ESA Pages；Umami Cloud 的数据存储服务位于美国；自建的周边基础设施部署于 Microsoft Azure 的韩国服务器以及阿里云的中国大陆服务器。
+例如，本博客托管于 Cloudflare 和 EdgeOne；Giscus 评论数据存储于 GitHub 的服务器（由 GitHub 依据其隐私政策处理）；Microsoft Clarity 的数据由 Microsoft 存储和处理（主要位于美国及微软全球数据中心）。
 
 有了此类数据传输，我们才能为您提供服务。访问/使用本站的服务或以其他方式向我们提供信息，即代表您了解您的个人信息处理、传输和储存将在发生在其他国家/地区。不同国家/地区可能适用不同的数据保护标准，并且/或者您可能无法享有与本地法律相同的权利。
 
@@ -45,10 +50,10 @@ Umami 统计系统可能会收集您的 IP 属地、浏览器 User-Agent 信息�
 ## 4. 我们如何使用信息
 我们可能将在向您提供服务的过程之中所收集的信息用于下列用途：
 
-向您提供服务
-浏览数据的展示
-在我们提供服务时，用于身份验证、安全防范、诈骗监测、存档和备份用途，确保我们向您提供的产品和服务的安全性
-使我们更加了解您如何接入和使用我们的服务，用于本站的访问体验优化，改善我们现有服务
+- 向您提供服务
+- 浏览数据的展示
+- 在我们提供服务时，用于身份验证、安全防范、诈骗监测、存档和备份用途，确保我们向您提供的产品和服务的安全性
+- 使我们更加了解您如何接入和使用我们的服务，用于本站的访问体验优化，改善我们现有服务
 请注意，本站可能包含由第三方提供的、不受我们控制的链接。在访问上述链接时，我们不对此过程中传输的信息负责。本隐私政策仅适用于本站，因此，即使您点击了本站上存在的链接而访问其他网站，也应阅读这些网站自己的隐私政策。
 
 ## 5. 信息共享
@@ -102,7 +107,9 @@ Cookies 具有多种不同功能，例如为您带来高效的页面浏览体验
 Cookies 在您设备中的保留时长各不相同。有些 Cookies 为“会话 Cookies”，也就是仅当您的浏览器或应用程序开启时，它们才存在。您一旦关闭浏览器或应用程序，它们便会自动删除。另一些 Cookies 则为“永久性 Cookies”，也就是在您的浏览器或应用程序关闭后，它们仍会存在。在您随后开启并再次使用该服务时，本站仍可用此类 Cookies 识别您的设备。
 
 ## 2. 我们如何使用 Cookies？
-如果您通过阿里云 ESA 访问到本站，那么 ESA 将添加 acw_tc 和 cdn_sec_tc。这是为了保障网站安全的必要 Cookies。
+
+- Cloudflare 会设置 __cf_bm、cf_clearance、_cfuvid 等安全/防机器人 Cookie（具体取决于你开启的功能，如 Bot Fight Mode、Turnstile、WAF 等）
+- EdgeOne 也可能设置安全类 Cookie（如 EO-Bot 相关、__EO_ 前缀的 Cookie，具体以你控制台实际下发为准）
 
 我们努力将 Cookies 使用限制在必要的最低限度。如果您认为出现了非必要的 Cookies，请联系我们。
 
@@ -213,7 +220,7 @@ Apple Safari
 否则本站有权根据规则删除、折叠或屏蔽您的评论。
 
 > [!WARNING] WARNING
->本站评论系统使用Giscus，由于 GitHub 策略，你的评论发布后可能会收到此站点后续其他人发布的评论，你可以前往[源代码仓库](https://github.com/1312333/Firefly)，退订相关的 Discussions。
+> 本站评论系统使用 Giscus，评论数据存储于 GitHub Discussions。发表评论后，您可能会通过 GitHub 收到该 Discussion 的后续通知。您可以前往[源代码仓库](https://github.com/1312333/Firefly)的 Discussions 页面，取消订阅相关讨论。Giscus 本身不存储您的评论数据，数据由 GitHub 依据其隐私政策处理。
 
 您对您的评论内容拥有完全的著作权。同时，您也需要对您所发布的评论承担全部责任。
 
@@ -221,7 +228,7 @@ Apple Safari
 
 ## AIGC 使用说明
 
-[](https://oss.watermelonabc.top/img/IIIA-2.webp)
+![](https://oss.watermelonabc.top/img/IIIA-2.webp)
 这是一个总体评价，不代表具体文章的 AI 使用情况。
 
 - 本站部分外文资料可能经由 AI 翻译
@@ -229,9 +236,9 @@ Apple Safari
 - 本站部分源代码可能由 AI 生成
 
 > “AI is a tool, just like other tools we use. And it’s clearly a useful one.”
-
+>
 > “There are other questions around AI (like what the economy of it will actually look like in the end), but ‘is it useful’ is no longer one of those questions. Anybody who doubts that clearly hasn’t actually used it.”
-
+>
 > “And no, AI isn’t perfect. But Christ, anybody who points to the problems at AI had better be looking in the mirror and pointing at themselves at the same time. Because it’s not like natural intelligence is always all that great either.”
-
+>
 > ——Linus Torvalds
