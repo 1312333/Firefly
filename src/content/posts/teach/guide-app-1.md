@@ -47,7 +47,7 @@ draft: false
 分流：[蓝奏云](https://wwa.lanzoui.com/iBnN9q5i7of)
 举例：将.cab后缀文件拖到C:\sxs目录下，然后以管理员方式打开PowerShell或Cmd，直接粘贴语句`dism.exe /online /enable-feature /featurename:NetFX3 /Source:c:\sxs`回车等待就好了。
 
-![](assets/images/article-images/2026/1751997-20210613144436674-31698719.png)
+![](assets/images/article-images/2026/20210613144436674-31698719.png)
 
 ### 解禁麦克风和摄像头限制
 1. 官方工具
@@ -55,7 +55,7 @@ draft: false
 官网地址：[官网链接](https://support.cmgos.com/cmgetools/cmge_mic_camera_tool)
 分流：[蓝奏云](https://wwa.lanzoui.com/i28lNq0jyed)
 
-![](assets/images/article-images/2026/1751997-20211202125328133-1632371670.png)
+![](assets/images/article-images/2026/20211202125328133-1632371670.png)
 
 2. 系统设置
 `gpedit.msc`打开组策略->计算机配置->管理模板->windows组件->应用隐私
@@ -68,7 +68,7 @@ draft: false
 ### 解除屏幕保护程序限制（选项灰色不可更改）
 `gpedit.msc`打开组策略->用户配置->管理模板->控制面板->个性化，将所有与屏幕保护程序相关的选项改为未配置即可。
 
-![](https://img2022.cnblogs.com/blog/1751997/202201/1751997-20220121133104895-695358431.png)
+![](assets/images/article-images/2026/20220121133104895-695358431.png)
 
 另一种办法，注册表`regedit`定位到`HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Control Panel\Desktop`右栏删掉下表提到的键。
 
@@ -82,17 +82,17 @@ draft: false
 ### 休眠后直接进入桌面
 `gpedit.msc`打开组策略->计算机配置->管理模板->控制面板->个性化，如下图所示，将`不显示锁屏`启用，其他选择未配置。
 
-![](https://img2022.cnblogs.com/blog/1751997/202202/1751997-20220207125457163-1331842797.png)
+![](assets/images/article-images/2026/20220207125457163-1331842797.png)
 
 运行窗口键入`netplwiz`。
 
-![](https://img2020.cnblogs.com/blog/1751997/202112/1751997-20211202124732536-2043733058.png)
+![](assets/images/article-images/2026/20211202124732536-2043733058.png)
 
 先选中要设置的账户，再取消选中`要使用本计算机，用户必须输入用户名和密码`选项。
 应用后会出现一个要求输入用户名和密码的菜单，输入确定。
 然后，在`屏幕保护程序设置`里，取消`在恢复时显示登录屏幕`。
 
-![](https://img2022.cnblogs.com/blog/1751997/202201/1751997-20220121124902900-1850154663.png)
+![](assets/images/article-images/2026/20220121124902900-1850154663.png)
 
 如果是灰色的，按上述操作 解除屏幕保护程序限制 即可解除。
 
