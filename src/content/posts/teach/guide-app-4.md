@@ -45,18 +45,29 @@ draft: false
 > -  GitHub API (https://api.github.com), **以及**
 > -  希沃易 + 软件下载站 (https://e.seewo.com), **以及**
 > -  以下下载源中的**任意一个**:
-git.yylx.win
-github.chenc.dev
-gh.07150721.xyz
-cdn.gh-proxy.org
-axisnow.gh-proxy.org
-gh-proxy.org
-githubdog.com
-js.jiangss.shop
-gh.927223.xyz
-ghproxy.felicity.land
-github.tbap.top
-github.com
+> git.yylx.win
+>
+> github.chenc.dev
+>
+> gh.07150721.xyz
+>
+> cdn.gh-proxy.org
+>
+> axisnow.gh-proxy.org
+>
+> gh-proxy.org
+>
+> githubdog.com
+>
+> js.jiangss.shop
+>
+> gh.927223.xyz
+>
+> ghproxy.felicity.land
+>
+> github.tbap.top
+>
+> github.com
 
 ### 更新至最新版希沃管家
 请打开 e.seewo.com, 接着按下图所示完成管家最新版下载。
