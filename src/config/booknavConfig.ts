@@ -88,6 +88,18 @@ export const booknavConfig: BooknavGroup[] = [
 				icon: "https://res.classisland.tech/logo.svg",
 				weight: 9,
 			},
+			{
+				title: "函数棋",
+				url: "https://shaihai.cn/fnchess",
+				desc: "用函数打仗的数学策略游戏。",
+				weight: 8,
+			},
+			{
+				title: "Mikutap",
+				url: "https://aidn.jp/mikutap/",
+				desc: "初音未来版本的通过点击/触摸播放声音并出现变化图案的互动内容。",
+				weight: 7,
+			},
 		],
 	},
 	{

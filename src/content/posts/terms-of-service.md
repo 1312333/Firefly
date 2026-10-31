@@ -1,21 +1,22 @@
 ---
 title: 服务政策
 published: 2026-10-24
-updated: 2026-10-25
+updated: 2026-10-31
 tags: [服务政策]
 category: 博客
 slug: terms-of-service
 draft: false
+comment: false
 ---
 
 > [!DANGER] DANGER
 > **以下服务政策均为暂行版**
 
 # 隐私政策
-更新日期：2026/10/25 生效日期：2026/10/26
+更新日期：2026/10/31 生效日期：2026/11/01
 
 ## 导言
-`blog.xiaoyuer.us.ci`（下称“本站”、“本服务”或“我们”）非常重视用户的隐私和个人信息保护。您在访问本站时，我们可能会收集和使用您的相关信息。我们希望通过本《隐私政策》向您说明，在访问本站时，我们如何收集、使用、储存和分享这些信息，以及我们为您提供的访问、更新、控制和保护这些信息的方式。本《隐私政策》与您所访问的博客网站息息相关，希望您仔细阅读，并在需要时按照本《隐私政策》的指引，作出您认为适当的选择。本《隐私政策》中涉及的相关技术词汇，我们尽量以简明扼要的表述，并提供进一步说明的链接，以便您的理解。
+`blog.xiaoyuer.us.ci`（下称"本站"、"本服务"或"我们"）非常重视用户的隐私和个人信息保护。您在访问本站时，我们可能会收集和使用您的相关信息。我们希望通过本《隐私政策》向您说明，在访问本站时，我们如何收集、使用、储存和分享这些信息，以及我们为您提供的访问、更新、控制和保护这些信息的方式。本《隐私政策》与您所访问的博客网站息息相关，希望您仔细阅读，并在需要时按照本《隐私政策》的指引，作出您认为适当的选择。本《隐私政策》中涉及的相关技术词汇，我们尽量以简明扼要的表述，并提供进一步说明的链接，以便您的理解。
 
 您继续访问本站，即意味着同意我们按照本《隐私政策》收集、使用、储存和分享您的相关信息。
 
@@ -32,11 +33,12 @@ draft: false
 
 - **Microsoft Clarity**：本站使用 Microsoft Clarity 进行访问统计与体验分析。Clarity 可能收集您的页面交互数据（点击、滚动、鼠标移动）、会话回放、热图、设备信息、浏览器 User-Agent、屏幕尺寸、页面 URL、Referer，并可能收集 IP 地址用于地理定位与 IP 排除功能（不长期存储完整 IP）。Clarity 通过 Cookie（`_clck`、`_clsk`）及 LocalStorage/sessionStorage 存储标识符，并可能设置由 Microsoft 控制的第三方 Cookie（详见持久化数据政策）。
 - **Giscus 评论系统**：本站使用 Giscus 提供评论功能。Giscus 基于 GitHub Discussions，评论数据实际存储于 GitHub。当评论区加载时，您的 IP 地址与浏览器信息会发送至 giscus.app 与 GitHub 以渲染讨论内容。发表评论需通过 GitHub OAuth 授权 Giscus 应用代表您发布内容，届时您的 GitHub 用户名、头像、个人主页链接及评论内容将在 GitHub 上公开可见。本站不自行存储您的评论数据。Giscus 的隐私实践详见其[隐私政策](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md)。
+- **Moe-Counter**：本站使用 Moe-Counter 提供页面访问计数功能。计数组件加载或计数触发时，您的 IP 地址、浏览器 User-Agent、Referer 及所计数的页面标识会发送至 Moe-Counter 服务端，用于生成计数、去重与防刷。Moe-Counter 可能通过 Cookie 或 LocalStorage/sessionStorage 存储访客去重标识。公共实例相关请求由第三方运营方处理
 
 ## 2. 信息存储与交换
 本站收集的有关您的信息和资料将保存在本站及（或）其第三方公司的服务器上。根据多种不同因素，如用户和服务提供商所处的位置，这些信息和资料可能**传送至您所在国家、地区或本站收集信息和资料所在地的境外**并在境外被访问、存储和展示。
 
-例如，本博客托管于 Cloudflare 和 EdgeOne；Giscus 评论数据存储于 GitHub 的服务器（由 GitHub 依据其隐私政策处理）；Microsoft Clarity 的数据由 Microsoft 存储和处理（主要位于美国及微软全球数据中心）。
+例如，本博客托管于 Cloudflare 和 EdgeOne；Giscus 评论数据存储于 GitHub 的服务器（由 GitHub 依据其隐私政策处理）；Microsoft Clarity 的数据由 Microsoft 存储和处理（主要位于美国及微软全球数据中心）；Moe-Counter 的计数数据存储于其部署服务器公共实例由第三方运营方存储。
 
 有了此类数据传输，我们才能为您提供服务。访问/使用本站的服务或以其他方式向我们提供信息，即代表您了解您的个人信息处理、传输和储存将在发生在其他国家/地区。不同国家/地区可能适用不同的数据保护标准，并且/或者您可能无法享有与本地法律相同的权利。
 
@@ -61,6 +63,8 @@ draft: false
 我们不会对外公开披露所收集的个人信息，如必须公开披露时，我们会向您告知此次公开披露的目的、披露信息的类型及可能涉及的敏感信息，并征得您的明示同意。
 
 **例外说明**：Microsoft Clarity 可能设置由 Microsoft 控制的第三方 Cookie（如 `MUID`），该 Cookie 可能由 Microsoft 用于其广告产品（如 Microsoft Advertising / Bing）。此类行为属于 Microsoft 依据其自身隐私政策实施的独立行为，不由本站控制，也不属于本站主动共享或转让个人信息的情形。
+
+**第三方服务说明**：本站使用的 Moe-Counter 计数服务（公共实例）由第三方运营，其收到的请求信息（IP、UA、Referer、页面标识等）由该运营方依据其自身政策处理，本站不控制其处理行为。
 
 另外，根据相关法律法规及国家标准，以下情形中，我们可能会共享、转让、公开披露个人信息，而无需事先征得您的授权同意：
 
@@ -89,7 +93,7 @@ draft: false
 ---
 
 # 持久化数据政策
-更新日期：2026/10/25 生效日期：2026/10/26
+更新日期：2026/10/31 生效日期：2026/11/01
 
 ## 导言
 本站可能会使用持久化数据，如 Cookies 和 LocalStorage 来提供服务和分析流量。您的 IP 地址、用户代理以及性能和安全指标会与本站分享，以生成使用情况统计信息、改善服务品质以及检测滥用问题。本政策前半部分为 Cookie 部分，后半部分为 LocalStorage 部分。
@@ -101,7 +105,7 @@ Cookie 是一种文本文件，包含在您访问某些网址时下载到您的�
 
 Cookies 具有多种不同功能，例如为您带来高效的页面浏览体验、记住您的偏好，以及改善用户的整体体验。举例而言，Cookies 可以告诉我们，您之前是否使用过该网站，或者您是否为新用户。
 
-Cookies 在您设备中的保留时长各不相同。有些 Cookies 为“会话 Cookies”，也就是仅当您的浏览器或应用程序开启时，它们才存在。您一旦关闭浏览器或应用程序，它们便会自动删除。另一些 Cookies 则为“永久性 Cookies”，也就是在您的浏览器或应用程序关闭后，它们仍会存在。在您随后开启并再次使用该服务时，本站仍可用此类 Cookies 识别您的设备。
+Cookies 在您设备中的保留时长各不相同。有些 Cookies 为"会话 Cookies"，也就是仅当您的浏览器或应用程序开启时，它们才存在。您一旦关闭浏览器或应用程序，它们便会自动删除。另一些 Cookies 则为"永久性 Cookies"，也就是在您的浏览器或应用程序关闭后，它们仍会存在。在您随后开启并再次使用该服务时，本站仍可用此类 Cookies 识别您的设备。
 
 ## 2. 我们如何使用 Cookies？
 本站可能通过以下服务设置 Cookie：
@@ -123,7 +127,7 @@ Cookies 在您设备中的保留时长各不相同。有些 Cookies 为“会话
 ## 3. 您如何管理 Cookies？
 您有权选择是否接受 Cookies，但不排除无法实现完整功能的可能性。
 
-大部分的浏览器均允许您更改 Cookies 设置。这些设置通常位于浏览器的“选项”或“偏好”菜单内。以下链接提供关于在常用浏览器上管理 Cookies 的信息，您亦可使用浏览器中的“帮助”选项，以获得更多详细信息。
+大部分的浏览器均允许您更改 Cookies 设置。这些设置通常位于浏览器的"选项"或"偏好"菜单内。以下链接提供关于在常用浏览器上管理 Cookies 的信息，您亦可使用浏览器中的"帮助"选项，以获得更多详细信息。
 
 - [Google Chrome](https://support.google.com/chrome/answer/95647)
 - [Microsoft Edge](https://support.microsoft.com/edge)
@@ -135,7 +139,7 @@ Cookies 在您设备中的保留时长各不相同。有些 Cookies 为“会话
 
 许多隐私保护工具，如 [隐私獾](https://privacybadger.org/) 也提供了屏蔽 Cookies 的功能。
 
-对于有一定技术水平的用户，也可以通过浏览器自带的开发者工具中的“应用”或“存储”工具对本站使用的 Cookies 进行审查。
+对于有一定技术水平的用户，也可以通过浏览器自带的开发者工具中的"应用"或"存储"工具对本站使用的 Cookies 进行审查。
 
 ## 4. 关于过往设置的 Cookies
 如果您已禁用一项或多项 Cookies，我们可能仍可使用在您设置禁用偏好之前，Cookies 已收集到的信息；但是，我们将不再使用您已禁用的 Cookies，来进一步收集任何信息。
@@ -158,6 +162,7 @@ LocalStorage 中存储的数据**仅本地保留在您的浏览器中**，不会
 - 前端缓存或临时状态（用于提升加载速度或功能体验）
 - 服务登录信息
 - **Giscus 评论组件**的界面偏好与会话相关信息（用于保持评论区体验的一致性）
+- **Moe-Counter 计数组件**的访客去重标识或会话相关信息（用于避免重复计数、保持计数一致性）
 
 我们不会也无法将 LocalStorage 用于：
 
@@ -168,7 +173,7 @@ LocalStorage 中存储的数据**仅本地保留在您的浏览器中**，不会
 ## 8. 您如何管理 LocalStorage？
 LocalStorage 中的数据仅存在于您的设备浏览器中，且始终由您控制。本站强依赖 LocalStorage 以控制隐私选项、存储缓存。当您清除 LocalStorage 后，您可能需要重新调整隐私选项或者重新缓存数据。
 
-以下链接提供关于在常用浏览器上管理 LocalStorage 的信息，您亦可使用浏览器中的“帮助”选项，以获得更多详细信息。
+以下链接提供关于在常用浏览器上管理 LocalStorage 的信息，您亦可使用浏览器中的"帮助"选项，以获得更多详细信息。
 
 - [Google Chrome](https://developer.chrome.com/docs/devtools/storage/localstorage/)
 - [Microsoft Edge](https://learn.microsoft.com/microsoft-edge/devtools-guide-chromium/storage/localstorage)
@@ -177,7 +182,7 @@ LocalStorage 中的数据仅存在于您的设备浏览器中，且始终由您�
 - [Apple Safari](https://support.apple.com/guide/safari/sfri11471/mac)
 
 ## 9. 本政策的变更
-我们可能会更新本《持久化数据政策》，以反映我们在实际操作和服务方面的变更。在发布本《持久化数据政策》的变更时，我们会修改本《持久化数据政策》文首的“最后更新日期”。我们建议您不时查阅此页面，以得知本《持久化数据政策》或我们其他政策的任何变更。
+我们可能会更新本《持久化数据政策》，以反映我们在实际操作和服务方面的变更。在发布本《持久化数据政策》的变更时，我们会修改本《持久化数据政策》文首的"最后更新日期"。我们建议您不时查阅此页面，以得知本《持久化数据政策》或我们其他政策的任何变更。
 
 ---
 
@@ -247,7 +252,7 @@ LocalStorage 中的数据仅存在于您的设备浏览器中，且始终由您�
 
 ## AIGC 使用说明
 
-![](https://oss.watermelonabc.top/img/IIIA-2.webp)
+![(https://oss.watermelonabc.top/img/IIIA-2.webp)](https://github.com/EyKettle/IIIA)
 
 这是一个总体评价，不代表具体文章的 AI 使用情况。
 
@@ -255,10 +260,10 @@ LocalStorage 中的数据仅存在于您的设备浏览器中，且始终由您�
 - 本站部分内容可能引入 AI 生成内容
 - 本站部分源代码可能由 AI 生成
 
-> “AI is a tool, just like other tools we use. And it’s clearly a useful one.”
+> "AI is a tool, just like other tools we use. And it's clearly a useful one."
 >
-> “There are other questions around AI (like what the economy of it will actually look like in the end), but ‘is it useful’ is no longer one of those questions. Anybody who doubts that clearly hasn’t actually used it.”
+> "There are other questions around AI (like what the economy of it will actually look like in the end), but 'is it useful' is no longer one of those questions. Anybody who doubts that clearly hasn't actually used it."
 >
-> “And no, AI isn’t perfect. But Christ, anybody who points to the problems at AI had better be looking in the mirror and pointing at themselves at the same time. Because it’s not like natural intelligence is always all that great either.”
+> "And no, AI isn't perfect. But Christ, anybody who points to the problems at AI had better be looking in the mirror and pointing at themselves at the same time. Because it's not like natural intelligence is always all that great either."
 >
 > ——[Linus Torvalds](https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/)

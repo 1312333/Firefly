@@ -63,10 +63,8 @@
 注意：
 这里不是什么垂直技术博客，种类会很杂：
 
-<div class="note">
-    <div class="note-title">💡项目分享</div>
-    <div>自己写的开源工具和网上的实用工具</div>
-</div>
+> [!NOTE] 经验交流💡项目分享
+> 自己写的开源工具和网上的实用工具
 
 > [!NOTE] 经验交流
 交流维护经验,你可以在[智教联盟论坛](https://forum.smart-teach.cn/)上看到[我](https://forum.smart-teach.cn/u/AWAurora233)
@@ -90,7 +88,7 @@
     </div>
     <div class="tech-card">
         <span class="tech-label">🎮 游戏</span>
-        <span class="tech-value">Minecraft Java 版；RFS；SFS;什么都玩一点，但都不精（笑）</span>
+        <span class="tech-value">Minecraft Java 版；RFS；SFS;星露谷;什么都玩一点，但都不精（笑）</span>
     </div>
 </div>
 
