@@ -1,216 +1,109 @@
 ---
-import { Icon } from "astro-icon/components";
 import WidgetLayout from "@/components/common/WidgetLayout.astro";
-import I18nKey from "@/i18n/i18nKey";
-import { i18n } from "@/i18n/translation";
-import type { WidgetComponentConfig } from "@/types/config";
-import { url } from "@/utils/url-utils";
 
-export interface Props {
-	class?: string;
-	style?: string;
-	widgetConfig?: WidgetComponentConfig;
+interface Props {
+    class?: string;
+    style?: string;
 }
 
-const { class: className = "", style, widgetConfig } = Astro.props as Props;
-
-const showTitle = widgetConfig?.showTitle !== false;
-const adConfig = widgetConfig?.specificConfig?.ad;
-
-// 无配置时不做渲染
-if (!adConfig) {
-	return null;
-}
-
-// 检查广告是否过期
-const isExpired = adConfig.expireDate
-	? new Date() > new Date(adConfig.expireDate)
-	: false;
-
-if (isExpired) {
-	return null;
-}
-
-// 计算 padding 内联样式
-const getPaddingStyle = (): string => {
-	if (!adConfig.padding) return "padding: 1rem";
-
-	const { all, top, right, bottom, left } = adConfig.padding;
-
-	if (all !== undefined) {
-		return `padding: ${all === "0" ? "0" : all}`;
-	}
-
-	const parts: string[] = [];
-	if (top !== undefined) parts.push(`padding-top: ${top}`);
-	if (right !== undefined) parts.push(`padding-right: ${right}`);
-	if (bottom !== undefined) parts.push(`padding-bottom: ${bottom}`);
-	if (left !== undefined) parts.push(`padding-left: ${left}`);
-
-	return parts.length > 0 ? parts.join("; ") : "padding: 1rem";
-};
-
-const paddingStyle = getPaddingStyle();
-// 使用随机 ID 避免多个广告实例冲突
-const widgetId = `advertisement-${Math.random().toString(36).slice(2, 8)}`;
-// 当配置了自定义 padding 时，禁用 WidgetLayout 默认的 px-4
-const useContentPadding = !adConfig.padding;
+const { class: className, style } = Astro.props;
 ---
 
-<WidgetLayout
-  name={adConfig.title || i18n(I18nKey.advertisement)}
-  showTitle={showTitle}
-  id={widgetId}
-  contentPadding={useContentPadding}
-  class:list={["advertisement-widget group", className]}
-  style={style}
->
-  <!-- 关闭按钮 -->
-  {adConfig.closable && (
-    <button
-      class="close-ad-btn absolute top-2 right-2 w-6 h-6 flex items-center justify-center rounded-full
-        bg-neutral-200 hover:bg-neutral-300 dark:bg-neutral-700 dark:hover:bg-neutral-600
-        text-neutral-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-200
-        transition-all duration-200 z-10 opacity-0 group-hover:opacity-100"
-      title="Close"
-      aria-label="Close"
-      data-ad-id={widgetId}
-    >
-      <Icon name="fa7-solid:xmark" class="w-3.5 h-3.5" aria-hidden="true" />
-    </button>
-  )}
-
-  <div style={paddingStyle}>
-    <!-- 图片 -->
-    {adConfig.image && (
-      <div class:list={[{ "mb-3": adConfig.content || adConfig.link }]}>
-        {adConfig.image.link ? (
-          <a
-            href={adConfig.image.link}
-            target={adConfig.image.external ? "_blank" : "_self"}
-            rel={adConfig.image.external ? "noopener noreferrer" : ""}
-            class="block overflow-hidden rounded-lg"
-          >
-            <img
-              src={adConfig.image.src.startsWith("/") ? url(adConfig.image.src) : adConfig.image.src}
-              alt={adConfig.image.alt || "Advertisement"}
-              class="w-full h-auto"
-              loading="lazy"
-            />
-          </a>
-        ) : (
-          <img
-            src={adConfig.image.src.startsWith("/") ? url(adConfig.image.src) : adConfig.image.src}
-            alt={adConfig.image.alt || "Advertisement"}
-            class="w-full h-auto rounded-lg"
-            loading="lazy"
-          />
-        )}
+<WidgetLayout id="schedule-widget" class={className} style={style}>
+  <div class="schedule-container">
+    <div class="progress-section space-y-4">
+      <div class="progress-item flex items-center gap-3">
+        <span class="text-[14px] font-semibold text-(--primary) shrink-0 w-[60px] year-progress">--%</span>
+        <div class="flex-1 min-w-0">
+          <span class="text-sm text-neutral-700 dark:text-neutral-300 year-days-left">本年还剩 -- 天</span>
+          <progress max="365" class="schedule-progress-bar pBar_year" value="0"></progress>
+        </div>
       </div>
-    )}
-
-    <!-- 文本内容 -->
-    {adConfig.content && (
-      <p class="text-sm text-center mb-3 leading-relaxed text-neutral-600 dark:text-neutral-300 transition">
-        {adConfig.content}
-      </p>
-    )}
-
-    <!-- 链接按钮 -->
-    {adConfig.link && (
+      <div class="progress-item flex items-center gap-3">
+        <span class="text-[14px] font-semibold text-(--primary) shrink-0 w-[60px] month-progress">--%</span>
+        <div class="flex-1 min-w-0">
+          <span class="text-sm text-neutral-700 dark:text-neutral-300 month-days-left">本月还剩 -- 天</span>
+          <progress max="31" class="schedule-progress-bar pBar_month" value="0"></progress>
+        </div>
+      </div>
+      <div class="progress-item flex items-center gap-3">
+        <span class="text-[14px] font-semibold text-(--primary) shrink-0 w-[60px] week-progress">--%</span>
+        <div class="flex-1 min-w-0">
+          <span class="text-sm text-neutral-700 dark:text-neutral-300 week-days-left">本周还剩 -- 天</span>
+          <progress max="7" class="schedule-progress-bar pBar_week" value="0"></progress>
+        </div>
+      </div>
+    </div>
+    <div class="holiday-section mt-4 pt-4 border-t border-neutral-200 dark:border-neutral-700">
       <div class="text-center">
-        <a
-          href={adConfig.link.url}
-          target={adConfig.link.external ? "_blank" : "_self"}
-          rel={adConfig.link.external ? "noopener noreferrer" : ""}
-          class="btn-regular inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:scale-105"
-        >
-          <span>{adConfig.link.text}</span>
-          {adConfig.link.external && (
-            <Icon name="fa7-solid:arrow-up-right-from-square" class="w-3.5 h-3.5" aria-hidden="true" />
-          )}
-        </a>
+        <p class="text-base font-semibold text-neutral-700 dark:text-neutral-300 mb-0 nearest-holiday-full">距离 --</p>
+        <p class="text-4xl font-bold text-(--primary) mb-2 nearest-holiday-days">--</p>
+        <p class="text-xs text-neutral-500 dark:text-neutral-400 nearest-holiday-date">--</p>
       </div>
-    )}
+    </div>
   </div>
 </WidgetLayout>
 
-<script is:inline data-swup-ignore-script define:vars={{ widgetId, displayCount: adConfig.displayCount ?? -1, isClosable: !!adConfig.closable }}>
-  function initAd() {
-    var widget = document.getElementById(widgetId);
-    if (!widget) return;
-
-    var wrapper = widget.closest(".advertisement-widget");
-    if (!wrapper) return;
-
-    // 检查显示次数限制（每个广告独立计数）
-    if (displayCount > 0) {
-      var storageKey = "ad-display-" + widgetId;
-      var currentCount = parseInt(localStorage.getItem(storageKey) || "0", 10);
-
-      if (currentCount >= displayCount) {
-        wrapper.style.display = "none";
-        return;
-      }
-
-      localStorage.setItem(storageKey, (currentCount + 1).toString());
-    }
-
-    // 绑定关闭按钮事件
-    if (isClosable) {
-      var closeBtn = wrapper.querySelector(".close-ad-btn");
-      if (closeBtn && !closeBtn.dataset.bound) {
-        closeBtn.dataset.bound = "true";
-        closeBtn.addEventListener("click", function (e) {
-          e.preventDefault();
-          e.stopPropagation();
-
-          wrapper.style.transition = "all 0.3s ease-out";
-          wrapper.style.transform = "translateX(100%)";
-          wrapper.style.opacity = "0";
-
-          setTimeout(function () {
-            wrapper.style.display = "none";
-          }, 300);
-        });
-      }
-    }
-  }
-
-  initAd();
-  // 防止 Swup 切页重跑脚本时重复注册监听器（此脚本的 data-swup-ignore-script 在 define:vars 构建时可能丢失）
-  if (!window.__advertisementInit) {
-    window.__advertisementInit = true;
-    document.addEventListener("swup:contentReplaced", function () {
-      setTimeout(initAd, 100);
-    });
-  }
+<script is:inline>
+  (function () {
+    const holidays = [
+      { name: "元旦", month: 0, day: 1 },
+      { name: "清明", month: 3, day: 4 },
+      { name: "劳动节", month: 4, day: 1 },
+      { name: "端午", month: 5, day: 19 },
+      { name: "中秋", month: 8, day: 25 },
+      { name: "国庆", month: 9, day: 1 },
+    ];
+    const formatDate = (date) => {
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, "0");
+      const day = String(date.getDate()).padStart(2, "0");
+      return `${year}-${month}-${day}`;
+    };
+    const getNearestHoliday = (now) => {
+      const year = now.getFullYear();
+      const dates = holidays.map((h) => ({ name: h.name, date: new Date(year, h.month, h.day) }))
+        .concat({ name: "元旦", date: new Date(year + 1, 0, 1) })
+        .filter((h) => h.date >= now).sort((a, b) => a.date - b.date);
+      const nearest = dates[0];
+      const days = Math.ceil((nearest.date - now) / 86400000);
+      return { name: nearest.name, days: days === 0 ? "今天" : String(days), date: formatDate(nearest.date) };
+    };
+    const setText = (el, sel, val) => { const e = el.querySelector(sel); if (e) e.textContent = val; };
+    const updateSchedule = () => {
+      const now = new Date(); const year = now.getFullYear();
+      const month = now.getMonth(); const day = now.getDate(); const weekDay = now.getDay() || 7;
+      const isLeap = (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+      const daysInYear = isLeap ? 366 : 365;
+      const yearPassed = Math.floor((now - new Date(year, 0, 0)) / 86400000);
+      const daysInMonth = new Date(year, month + 1, 0).getDate();
+      const h = getNearestHoliday(now);
+      document.querySelectorAll(".schedule-container").forEach((c) => {
+        const yp = ((yearPassed / daysInYear) * 100).toFixed(1);
+        const mp = ((day / daysInMonth) * 100).toFixed(1);
+        const wp = ((weekDay / 7) * 100).toFixed(1);
+        const pY = c.querySelector(".pBar_year"); if (pY) { pY.max = daysInYear; pY.value = yearPassed; }
+        const pM = c.querySelector(".pBar_month"); if (pM) { pM.max = daysInMonth; pM.value = day; }
+        const pW = c.querySelector(".pBar_week"); if (pW) pW.value = weekDay;
+        setText(c, ".year-progress", `${yp}%`); setText(c, ".month-progress", `${mp}%`); setText(c, ".week-progress", `${wp}%`);
+        setText(c, ".year-days-left", `本年还剩 ${daysInYear - yearPassed} 天`);
+        setText(c, ".month-days-left", `本月还剩 ${daysInMonth - day} 天`);
+        setText(c, ".week-days-left", `本周还剩 ${7 - weekDay} 天`);
+        setText(c, ".nearest-holiday-full", `距离${h.name}`);
+        setText(c, ".nearest-holiday-days", h.days);
+        setText(c, ".nearest-holiday-date", h.date);
+      });
+    };
+    const init = () => { updateSchedule(); const n = new Date(); const nxt = new Date(n.getFullYear(), n.getMonth(), n.getDate() + 1); setTimeout(() => { updateSchedule(); setInterval(updateSchedule, 86400000); }, nxt - n); };
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init, { once: true }); else init();
+    document.addEventListener("astro:page-load", updateSchedule);
+  })();
 </script>
 
 <style>
-  .advertisement-widget {
-    transition: all 0.3s ease;
-  }
-
-  .advertisement-widget:hover {
-    transform: translateY(-2px);
-  }
-
-  @media (max-width: 768px) {
-    .advertisement-widget:hover {
-      transform: none;
-    }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .advertisement-widget,
-    .advertisement-widget img,
-    .advertisement-widget a {
-      transition: none;
-    }
-
-    .advertisement-widget:hover {
-      transform: none;
-    }
-  }
+  .schedule-progress-bar { -webkit-appearance: none; appearance: none; border: none; width: 100%; height: 10px; border-radius: 5px; background-color: #f0f0f0; margin-top: 4px; }
+  .schedule-progress-bar::-webkit-progress-bar { background-color: #f0f0f0; border-radius: 5px; }
+  .schedule-progress-bar::-webkit-progress-value { background: var(--primary); border-radius: 5px; transition: width 0.3s ease; }
+  .schedule-progress-bar::-moz-progress-bar { background: var(--primary); border-radius: 5px; }
+  .dark .schedule-progress-bar, .dark .schedule-progress-bar::-webkit-progress-bar { background-color: #374151; }
 </style>
