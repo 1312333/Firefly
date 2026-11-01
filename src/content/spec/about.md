@@ -149,6 +149,8 @@
 
 > 本页面参考了[Pinpe](https://github.com/Pinpe)大佬的排版和样式
 
+> Meting-API 接口感谢[live-ling](https://github.com/live-ling)
+
 ---
 
 *感谢你的来访！希望在这里能找到对你有用的内容！*
