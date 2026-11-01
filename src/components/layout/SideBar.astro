@@ -18,6 +18,7 @@ import type {
 } from "@/types/config";
 import { isWidgetVisibleOnPageType } from "@/utils/responsive-utils";
 import { isArticleDetailPage } from "@/utils/url-utils";
+import Schedule from "@/components/widget/Schedule.astro";
 
 interface Props {
 	class?: string;
@@ -55,6 +56,8 @@ const componentMap = {
 	music: Music,
 	siteInfo: SiteInfo,
 	dynamic: Dynamic,
+	schedule: Schedule,
+    quoteOfTheDay: QuoteOfTheDay,
 };
 
 // 获取侧边栏位置
