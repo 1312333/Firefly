@@ -94,6 +94,16 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 				collapseThreshold: 10,
 			},
 		},
+		{
+			//时间进度与节假日倒计时组件
+			type: "schedule",
+			// 是否启用该组件
+			enable: true,
+			// 组件位置
+			position: "sticky",
+			// 是否在文章详情页显示
+			showOnPostPage: false, // 建议设为 false，文章页不显示
+		},
 	],
 
 	// 右侧边栏组件配置列表

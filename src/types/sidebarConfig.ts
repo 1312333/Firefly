@@ -87,10 +87,3 @@ export type SidebarLayoutConfig = {
 	rightComponents: WidgetComponentConfig[]; // 右侧边栏组件配置列表
 	mobileBottomComponents: MobileBottomComponentConfig[]; // 移动端底部组件配置列表（<768px显示）
 };
-
-export type Schedule = {
-	type: "schedule",//时间进度侧边栏
-	enable: true,
-	position: "sticky",
-	showOnPostPage: false, // 建议设为 false，文章页不显示
-};
