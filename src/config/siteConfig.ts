@@ -42,7 +42,7 @@ const pages = resolvePageToggles({
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "AWAurora233的个人博客",
+	title: "AWAurora233的博客",
 
 	// 站点副标题
 	subtitle: "",

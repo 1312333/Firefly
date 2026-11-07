@@ -9,7 +9,7 @@ export const sponsorConfig: SponsorConfig = {
 
 	// 打赏用途说明
 	usage:
-		"您的打赏将用于服务器维护、内容创作和功能开发，帮助我持续提供优质内容。",
+		"您的打赏将用于服务器维护、域名续费、内容创作和功能开发，帮助我持续提供优质内容。",
 
 	// 是否显示打赏者列表
 	showSponsorsList: true,
@@ -26,10 +26,10 @@ export const sponsorConfig: SponsorConfig = {
 			name: "支付宝",
 			icon: "fa7-brands:alipay",
 			// 收款码图片路径（需要放在 public 目录下）
-			qrCode: "/assets/images/sponsor/alipay.png",
+			qrCode: "/assets/images/sponsor/alipay.jpg",
 			link: "",
 			description: "使用 支付宝 扫码打赏",
-			enabled: false,
+			enabled: true,
 		},
 		{
 			name: "微信",

@@ -67,7 +67,7 @@
 > 自己写的开源工具和网上的实用工具
 
 > [!NOTE] 经验交流
-交流维护经验,你可以在[智教联盟论坛](https://forum.smart-teach.cn/)上看到[我](https://forum.smart-teach.cn/u/AWAurora233)
+> 交流维护经验,你可以在[智教联盟论坛](https://forum.smart-teach.cn/)上看到[我](https://forum.smart-teach.cn/u/AWAurora233)
 
 > [!NOTE] 生活
 > 二次元、~~开发日常~~、日常碎碎念。
@@ -136,7 +136,7 @@
     <span class="tech-value">https://blog.xiaoyuer.us.ci</span>
   </div>
   <div class="tech-card act-card" onclick="window.open('https://www.free-blog-xiaoyuer.ccwu.cc', '_blank');">
-    <span class="tech-label">备用临时域名(托管在EdgeOne)</span>
+    <span class="tech-label">备用域名(托管在EdgeOne)</span>
     <span class="tech-value">https://www.free-blog-xiaoyuer.ccwu.cc</span>
   </div>
   <div class="tech-card act-card" onclick="window.open('https://www.xiaoyuer.us.ci', '_blank');">
